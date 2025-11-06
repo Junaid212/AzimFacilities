@@ -5,8 +5,10 @@ import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 import Projects6 from './../Elements/Projects6';
 import ReactPlayer from 'react-player';
+import Plans1 from '../Elements/Plans1';
 
 var bnrimg = require('./../../images/banner/2.jpg');
+var bgimg1 = require('./../../images/video-bg.jpg');
 
 class ProjectDetail1 extends React.Component {
     
@@ -35,101 +37,93 @@ class ProjectDetail1 extends React.Component {
             <>
                 <Header4 />
                 <div className="page-content">
-                    <Banner title="Project Details" pagename="Project Detail" description="The essence of interior design will always be about people and how they live. It is about the realities of what makes for an attractive, civilized." bgimage={bnrimg} />
+                    <Banner title="AZIM Facilities Management & services" pagename="AZIM Facilities" description="" bgimage={bnrimg} />
 
                     {/* SECTION CONTENT START */}
-                    <div className="section-full p-tb80 inner-page-padding stick_in_parent">
-                        <div className="container">
+                    <div className={`${this.props.bgcolor} section-full mobile-page-padding p-t80 p-b50`}>
+                    <div className="container">
+                        <div className="section-content">
                             <div className="row">
-                                <div className="col-lg-7 col-md-7  sticky_column">
-                                    <div className="project-detail-containt">
-                                        <div className="bg-white text-black">
-                                            <h3>A multitask profession which creates any land in beautiful creation </h3>
-                                            <p> Designers think everything done by someone else is awful, and that they could do it better themselves, which explains why I designed my own living room carpet, I suppose. the architect represents neither a Dionysian nor an Apollinian condition: here it is the mighty act of will, the will which moves mountains, the intoxication of the strong will, which demands artistic expression. The most powerful men have always inspired the architects; the architect has always been influenced by power.</p>
-                                            <div className="product-block">
-                                                <ul>
-                                                    <li>
-                                                        <h4 className="m-b10">Date</h4>
-                                                        <p>October 10, 2022</p>
-                                                    </li>
-                                                    <li>
-                                                        <h4 className="m-b10">Client</h4>
-                                                        <p>Studio Massimo, Italy</p>
-                                                    </li>
-                                                    <li>
-                                                        <h4 className="m-b10">Project type</h4>
-                                                        <p>Contruction, Brading</p>
-                                                    </li>
-                                                    <li>
-                                                        <h4 className="m-b10">Location</h4>
-                                                        <p>Mountain View CA 94043</p>
-                                                    </li>
-                                                    <li>
-                                                        <h4 className="m-b10">Year</h4>
-                                                        <p>2022</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="m-b0">
-                                                <div className="sx-divider divider-1px  bg-black"><i className="icon-dot c-square" /></div>
-                                            </div>
-                                            <ul className="social-icons social-square social-darkest m-b0">
-                                            <li><a href="https://www.facebook.com" target="_blank" className="fa fa-facebook" /></li>
-                                                <li><a href="https://twitter.com" target="_blank" className="fa fa-twitter" /></li>
-                                                <li><a href="https://in.linkedin.com" target="_blank" className="fa fa-linkedin" /></li>
-                                                <li><a href="https://rss.com" target="_blank" className="fa fa-rss" /></li>
-                                                <li><a href="https://www.youtube.com" target="_blank" className="fa fa-youtube" /></li>
-                                                <li><a href="https://www.instagram.com" target="_blank" className="fa fa-instagram" /></li>
-                                            </ul>
+                                <div className="col-xl-6 col-lg-6 col-md-12">
+                                    <div className="about-home-3 m-b30 bg-white">
+                                        <h3 className="m-t0 m-b20 sx-tilte">What Azim Facilities Do</h3>
+                                        <p>We provide highly trained and professional hospitality staff, including butlers, captains, bartenders, waiters/waitresses, hosts/hostesses, and commis personnel. Our team delivers exceptional service, ensuring a refined and seamless guest experience for hotels, events, and luxury venues.</p>
+                                        <ul class="list-angle-right anchor-line two-column-list">
+  <li>Butlers</li>
+  <li>Captains</li>
+  <li>Bartenders</li>
+  <li>Waiters/Waitresses</li>
+  <li>Hosts/Hostesses</li>
+  <li>Commis personnel</li>
+</ul>
+<style>{`
+.two-column-list {
+  columns: 2; /* splits list into 2 columns */
+  column-gap: 40px;
+  list-style-position: inside;
+}
+
+`}</style>
+                                        <div className="text-left">
+                                            {/* <NavLink to="/about-1" className="site-button btn-half"><span>Read More</span></NavLink> */}
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-5 col-md-5 ">
-                                    <div className="project-detail-outer">
-                                        <div className="project-detail-pic m-b30">
-                                            <div className="sx-media">
-                                                <img src={require('./../../images/projects/portrait/pic7.jpg')} alt="" />
-                                            </div>
-                                        </div>
-                                        <div className="project-detail-pic m-b30">
-                                            <div className="sx-media">
-                                                <img src={require('./../../images/projects/portrait/pic4.jpg')} alt="" />
-                                            </div>
-                                        </div>
-                                        <div className="project-detail-pic m-b30">
-                                            <div className="sx-media">
-                                                <img src={require('./../../images/projects/portrait/pic5.jpg')} alt="" />
-                                            </div>
-                                        </div>
-                                        <div className="sx-box">
-                                            <div className="sx-thum-bx sx-img-overlay1 sx-img-effect yt-thum-box">
-                                                <img src="https://img.youtube.com/vi/Oy2QIiSQT2U/0.jpg" alt="" />
-                                                <NavLink to={"#"} className="play-now" data-toggle="modal" data-target="#myModal5">
-                                                    <i className="icon fa fa-play" />
-                                                    <span className="ripple" />
-                                                </NavLink>
-                                            </div>
+                                <div className="col-xl-6 col-lg-6 col-md-12">
+                                    <div className="video-section-full-v2">
+                                        <div className="video-section-full bg-no-repeat bg-cover bg-center overlay-wraper m-b30" style={{ backgroundImage: 'url(' + bgimg1 + ')' }}>
+                                            <div className="overlay-main bg-black opacity-04" />
+                                            {/* <div className="video-section-inner">
+                                                <div className="video-section-content">
+                                                    <NavLink to={"#"} className="play-now" data-toggle="modal" data-target="#myModal">
+                                                        <i className="icon fa fa-play" />
+                                                        <span className="ripple" />
+                                                    </NavLink>
+
+                                                    <div className="video-section-bottom">
+                                                        <h3 className="sx-title text-white">25 Years<br />Experience</h3>
+                                                    </div>
+                                                </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="project-detail-containt-2 m-t50">
-                                <h3>Creating a sustainable future through building preservation, green architecture, and smart design</h3>
-                                <p className="m-b0"> Designers think everything done by someone else is awful, and that they could do it better themselves, which explains why I designed my own living room carpet, I suppose. the architect represents neither a Dionysian nor an Apollinian condition: here it is the mighty act of will, the will which moves mountains, the intoxication of the strong will, which demands artistic expression. The most powerful men have always inspired the architects; the architect has always been influenced by power.</p>
                             </div>
                         </div>
                     </div>
+                </div>
                     {/* SECTION CONTENT END  */}
-                    <Projects6 />
+                    <Plans1 />
+                    {/* SECTION CONTENTG START */}
+                                        <div className="section-full mobile-page-padding p-tb80 bg-bottom-left bg-no-repeat" style={{ backgroundImage: 'url(images/background/bg-4.png)' }}>
+                                            <div className="container">
+                                                <div className="section-content">
+                                                    <div className="page-notfound row">
+                                                        <div className="col-md-7">
+                                                            <img src={require('./../../images/error-404.png')} alt="" />
+                                                        </div>
+                                                        <div className="col-md-5">
+                                                            {/* <strong>Page Not Found</strong> */}
+                                                            <span className="title">Building Maintenance services </span>
+                                                            <span>We provide professional services in plumbing, electrical work, HVAC, landscaping,
+                                                                 and security systems. Our skilled technicians ensure reliable solutions tailored
+                                                                  to your needs, delivering quality, safety, and efficiency for every projects.</span><br/><br/>
+                                                            <ul style={{marginLeft:'20px'}}>
+                                                            <li><span> Plumbing</span></li>
+                                                            <li><span> Electrical</span></li>
+                                                            <li><span> HVAC</span></li>
+                                                            <li><span> Landscaping</span></li>
+                                                            <li><span> Security systems</span></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {/* SECTION CONTENT END */}
+                    {/* <Projects6 /> */}
                 </div>
 
-                <div className="modal fade" id="myModal5" role="dialog">
-                    <div className="modal-dialog">
-                        <div className="modal-content">
-                            <ReactPlayer url='https://www.youtube.com/watch?v=Oy2QIiSQT2U' />
-                        </div>
-                    </div>
-                </div>
                 <Footer />
             </>
         );

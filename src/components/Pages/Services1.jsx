@@ -15,10 +15,11 @@ class Service1 extends React.Component {
             <>
                 <Header4 />
                 <div className="page-content">
-                    <Banner title="Service Style One" pagename="Services 1" description="The essence of interior design will always be about people and how they live. It is about the realities of what makes for an attractive, civilized." bgimage={bnrimg}/>
-                    <WhatWeDo6 />
-                    <Services6 />
+                    <Banner title="We are a Group of companies" pagename="Services" description="Empowering Growth, Uniting Excellence to Shape Tomorrow's Success AZIM Group is a constellation of enterprises at the heart of Qatar's dynamic business landscape. With seven unique companies under our banner, we orchestrate services to deliver unmatched value across diverse industries" bgimage={bnrimg}/>
+                    {/* <WhatWeDo6 /> */}
+                    {/* <Services6 /> */}
                     <Services7 />
+                    <WhatWeDo6 />
                     <ClientsLogo2 bgcolor="bg-gray" />
                 </div>
                 <Footer />

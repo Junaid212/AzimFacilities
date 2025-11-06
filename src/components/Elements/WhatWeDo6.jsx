@@ -15,7 +15,8 @@ class WhatWeDo6 extends React.Component {
                         <div className="section-head">
                             <div className="sx-separator-outer separator-left">
                                 <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(' + bgimg3 + ')' }}>
-                                    <h3 className="sep-line-one">What We do</h3>
+                                    <h4 style={{margin:'25px 0px -20px 25px'}}>Progressing</h4>
+                                    <h3 className="sep-line-one">Beyond Boundaries</h3>
                                 </div>
                             </div>
                         </div>
@@ -26,7 +27,8 @@ class WhatWeDo6 extends React.Component {
                                     <div className="number-block-one animate-in-to-top">
                                         <img src={require('./../../images/pic1.jpg')} alt="" />
                                         <div className="figcaption bg-white text-center p-a20">
-                                            <h4 className="m-a0">Interior Design</h4>
+                                            <h4 className="m-a0">Dynamic Growth</h4>
+                                            <p>Azim Group’s journey reflects dynamic growth, resilience, and adaptability across industries.</p>
                                         </div>
                                         <div className="figcaption-number text-center sx-text-primary animate-in-to-top-content">
                                             <span>01</span>
@@ -37,7 +39,8 @@ class WhatWeDo6 extends React.Component {
                                     <div className="number-block-one animate-in-to-top">
                                         <img src={require('./../../images/pic2.jpg')} alt="" />
                                         <div className="figcaption bg-white text-center p-a20">
-                                            <h4 className="m-a0">Architectur</h4>
+                                            <h4 className="m-a0">Adaptable Approach</h4>
+                                            <p>Azim Group’s success stems from its adaptability, agility, and foresight—positioning it as a dynamic, future-ready force.</p>
                                         </div>
                                         <div className="figcaption-number text-center sx-text-primary animate-in-to-top-content">
                                             <span>02</span>
@@ -48,7 +51,8 @@ class WhatWeDo6 extends React.Component {
                                     <div className="number-block-one animate-in-to-top">
                                         <img src={require('./../../images/pic3.jpg')} alt="" />
                                         <div className="figcaption bg-white text-center p-a20">
-                                            <h4 className="m-a0">Floor Plan</h4>
+                                            <h4 className="m-a0">Innovative Solutions</h4>
+                                            <p>Renowned for its pioneering spirit, Azim Group drives innovation, sets industry standards, and shapes the future of excellence.</p>
                                         </div>
                                         <div className="figcaption-number text-center sx-text-primary animate-in-to-top-content">
                                             <span>03</span>

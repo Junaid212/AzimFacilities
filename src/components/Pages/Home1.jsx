@@ -12,7 +12,10 @@ import Team1 from './../Elements/Team1';
 import About2 from '../Elements/About2';
 import Statistics1 from '../Elements/Statistics1';
 import Services2 from '../Elements/Services2';
+import About3 from './../Elements/About3';
+
 var bgimg1 = require('./../../images/background/cross-line2.png');
+
 
 class Home1 extends React.Component {
     render() {
@@ -23,6 +26,7 @@ class Home1 extends React.Component {
                     {/* SLIDER START */}
                     <Slider4 />
                     <About2/>
+                    <About3 bgcolor="bg-white"/>
                     {/* <WhatWeDo3 /> */}
                     <WhatWeDo1 />
                     <Statistics1 />
@@ -97,7 +101,7 @@ class Home1 extends React.Component {
                                                                                 </div>
                      </div>
                      
-                    <div className="section-full p-t80 p-b50 inner-page-padding">
+                    <div className="section-full p-t70 p-b50 inner-page-padding bg-gray">
                         <div className="container">
                             <div className="blog-single-space max-w1100 ml-auto mr-auto">
                                 {/* BLOG START */}
@@ -111,14 +115,14 @@ class Home1 extends React.Component {
                                             <div className="col-md-6">
                                                 <div className="sx-box m-b30">
                                                     <div className="sx-media">
-                                                        <img src={require('./../../images/blog/default/thum1.jpg')} alt=""/>
+                                                        <img src={require('./../../images/azim/11.png')} alt=""/>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="sx-box m-b30">
                                                     <div className="sx-media">
-                                                        <img src={require('./../../images/blog/default/thum2.jpg')} alt="" />
+                                                        <img src={require('./../../images/azim/12.png')} alt="" />
                                                     </div>
                                                 </div>
                                             </div>

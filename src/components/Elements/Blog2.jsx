@@ -25,13 +25,13 @@ class Blog2 extends React.Component {
                 <div className="section-full mobile-page-padding bg-gray p-t80 p-b50">
                     <div className="container">
                         {/* TITLE START */}
-                        <div className="section-head">
+                        {/* <div className="section-head">
                             <div className="sx-separator-outer separator-center">
                                 <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(' + bgimg1 + ')' }}>
                                     <h3 className="sep-line-one">Blog</h3>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         {/* TITLE END */}
                         {/* IMAGE CAROUSEL START */}
                         <div className="section-content">
@@ -41,39 +41,39 @@ class Blog2 extends React.Component {
                                     <div className="blog-post blog-lg date-style-3 block-shadow">
                                         <div className="sx-post-media sx-img-effect zoom-slow">
                                             <div className="sx-thum-bx sx-img-overlay1 sx-img-effect yt-thum-box">
-                                                <img src="https://img.youtube.com/vi/Oy2QIiSQT2U/0.jpg" alt="" />
-                                                <NavLink to={"#"} className="play-now" data-toggle="modal" data-target="#myModal2">
+                                                {/* <img src="https://img.youtube.com/vi/Oy2QIiSQT2U/0.jpg" alt="" /> */}
+                                                {/* <NavLink to={"#"} className="play-now" data-toggle="modal" data-target="#myModal2">
                                                     <i className="icon fa fa-play" />
                                                     <span className="ripple" />
-                                                </NavLink>
+                                                </NavLink> */}
                                             </div>
                                         </div>
                                         <div className="sx-post-info  bg-white">
                                             <div className="sx-post-meta ">
-                                                <ul>
+                                                {/* <ul>
                                                     <li className="post-date"> <strong>20 </strong> <span>Sep 2022</span> </li>
                                                     <li className="post-author"><NavLink to={"/blog-single"}>By <span>John</span></NavLink> </li>
                                                     <li className="post-comment"><NavLink to={"/blog-single"}>0 Comments</NavLink> </li>
-                                                </ul>
+                                                </ul> */}
                                             </div>
                                             <div className="sx-post-title ">
-                                                <h4 className="post-title"><NavLink to={"/blog-single"}>You don’t get framed by the Decor.</NavLink></h4>
+                                                <h4 className="post-title"><NavLink to={"/blog-single"} style={{color:'#E18A2E'}}>Our Vision</NavLink></h4>
                                             </div>
                                             <div className="sx-post-text">
-                                                <p>Asperiores, tenetur, blanditiis, quaerat pariatur quibus dam veritatis quisquam laboriosam esse beatae hic perferendis</p>
+                                                <p>We aim to be Qatar’s leading force in collaborative excellence, inspiring innovation and shaping industry benchmarks. Our vision is a future where our group of companies flourishes while creating meaningful impact across industries and society.</p>
                                             </div>
                                             <div className="clearfix">
                                                 <div className="sx-post-readmore pull-left">
-                                                    <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read More</NavLink>
+                                                    {/* <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read More</NavLink> */}
                                                 </div>
                                                 <div className="widget_social_inks pull-right">
-                                                    <ul className="social-icons social-square social-dark m-b0">
+                                                    {/* <ul className="social-icons social-square social-dark m-b0">
                                                         <li><a href="https://www.facebook.com" target="_blank" className="fa fa-facebook" /></li>
                                                         <li><a href="https://twitter.com" target="_blank" className="fa fa-twitter" /></li>
                                                         <li><a href="https://rss.com" target="_blank" className="fa fa-rss" /></li>
                                                         <li><a href="https://www.youtube.com" target="_blank" className="fa fa-youtube" /></li>
                                                         <li><a href="https://www.instagram.com" target="_blank" className="fa fa-instagram" /></li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -87,10 +87,10 @@ class Blog2 extends React.Component {
                                             <OwlCarousel className="owl-carousel owl-fade-slider-one owl-btn-vertical-center owl-dots-bottom-right" {...options}>
                                                 <div className="item">
                                                     <div className="aon-thum-bx">
-                                                        <img src={require('./../../images/blog/default/thum1.jpg')} alt="" />
+                                                        {/* <img src={require('./../../images/blog/default/thum1.jpg')} alt="" /> */}
                                                     </div>
                                                 </div>
-                                                <div className="item">
+                                                {/* <div className="item">
                                                     <div className="aon-thum-bx">
                                                         <img src={require('./../../images/blog/default/thum2.jpg')} alt="" />
                                                     </div>
@@ -99,36 +99,36 @@ class Blog2 extends React.Component {
                                                     <div className="aon-thum-bx">
                                                         <img src={require('./../../images/blog/default/thum3.jpg')} alt="" />
                                                     </div>
-                                                </div>
+                                                </div> */}
 
                                             </OwlCarousel>
                                             {/*fade slider END*/}
                                         </div>
                                         <div className="sx-post-info  bg-white">
                                             <div className="sx-post-meta ">
-                                                <ul>
+                                                {/* <ul>
                                                     <li className="post-date"> <strong>20 </strong> <span>Sep 2022</span> </li>
                                                     <li className="post-author"><NavLink to={"/blog-single"}>By <span>John</span></NavLink> </li>
                                                     <li className="post-comment"><NavLink to={"/blog-single"}>0 Comments</NavLink> </li>
-                                                </ul>
+                                                </ul> */}
                                             </div>
                                             <div className="sx-post-title ">
-                                                <h4 className="post-title"><NavLink to={"/blog-single"}>When it comes to your house</NavLink></h4>
+                                                <h4 className="post-title" ><NavLink to={"/blog-single"} style={{color:'#E18A2E'}}>Our Mission</NavLink></h4>
                                             </div>
                                             <div className="sx-post-text">
-                                                <p>Asperiores, tenetur, blanditiis, quaerat pariatur quibus dam veritatis quisquam laboriosam esse beatae hic perferendis</p>
+                                                <p>Our mission at AZIM Group is to provide outstanding services driven by collaboration, innovation, and unwavering commitment. We strive to surpass client expectations, influence industry standards, and actively support Qatar’s development.</p>
                                             </div>
                                             <div className="clearfix">
                                                 <div className="sx-post-readmore pull-left">
-                                                    <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read More</NavLink>
+                                                    {/* <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read More</NavLink> */}
                                                 </div>
                                                 <div className="widget_social_inks pull-right">
                                                     <ul className="social-icons social-square social-dark m-b0">
-                                                        <li><NavLink to={{ pathname: "https://www.facebook.com" }} target="_blank" className="fa fa-facebook" /></li>
+                                                        {/* <li><NavLink to={{ pathname: "https://www.facebook.com" }} target="_blank" className="fa fa-facebook" /></li>
                                                         <li><NavLink to={{ pathname: "https://twitter.com" }} target="_blank" className="fa fa-twitter" /></li>
                                                         <li><NavLink to={{ pathname: "https://rss.com" }} target="_blank" className="fa fa-rss" /></li>
                                                         <li><NavLink to={{ pathname: "https://www.youtube.com" }} target="_blank" className="fa fa-youtube" /></li>
-                                                        <li><NavLink to={{ pathname: "https://www.instagram.com" }} target="_blank" className="fa fa-instagram" /></li>
+                                                        <li><NavLink to={{ pathname: "https://www.instagram.com" }} target="_blank" className="fa fa-instagram" /></li> */}
                                                     </ul>
                                                 </div>
                                             </div>
@@ -139,7 +139,7 @@ class Blog2 extends React.Component {
                         </div>
                     </div>
                     <div className="hilite-title text-left p-l50 text-uppercase">
-                        <strong>Blog</strong>
+                        <strong>Vision</strong>
                     </div>
                 </div>
                 <div className="modal fade" id="myModal2" role="dialog">

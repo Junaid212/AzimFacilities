@@ -4,24 +4,45 @@ import { NavLink } from 'react-router-dom';
 const services = [
     {
         count: '01',
-        title: 'Smartly Execute',
+        title: 'AZIM Facilities Management & services',
         flaticon: 'flaticon-sketch',
         image: require('./../../images/services/service-projects/1.jpg'),
-        description: 'Our team also provides consultations on all architectural issues, even if you need.'
+        description: 'Crafting Elevated Experiences: Where Excellence Meets Service. Your space, our commitment.'
     },
     {
         count: '02',
-        title: 'Perfect Design',
+        title: 'One Way Limousine WLL',
         flaticon: 'flaticon-stairs',
         image: require('./../../images/services/service-projects/2.jpg'),
-        description: 'We combine Interior and Exterior Design services and often provide them as a single solution.'
+        description: 'Elevate every journey with our premium limousine rentals — your destination, our elegance.'
     },
     {
         count: '03',
-        title: 'Carefully planned',
+        title: 'VenYou Events',
         flaticon: 'flaticon-window',
         image: require('./../../images/services/service-projects/3.jpg'),
-        description: 'Landscape plans for drainage problems may also entail planting beds away'
+        description: 'Experience seamless events crafted with our expert touch — your celebration, perfected by our expertise.'
+    },
+    {
+        count: '04',
+        title: 'Najila Food Trading',
+        flaticon: 'flaticon-sketch',
+        image: require('./../../images/services/service-projects/1.jpg'),
+        description: "We bring the world's finest flavors to your table. Experience the art of taste with us."
+    },
+    {
+        count: '05',
+        title: 'Golden Vision Cleaning and Hospitality Services',
+        flaticon: 'flaticon-stairs',
+        image: require('./../../images/services/service-projects/2.jpg'),
+        description: 'Where cleanliness meets a warm welcome — your comfort is our commitment.'
+    },
+    {
+        count: '06',
+        title: 'Vadakara To Kasargod Restaurant',
+        flaticon: 'flaticon-window',
+        image: require('./../../images/services/service-projects/3.jpg'),
+        description: 'A culinary experience that embodies true authenticity.'
     }
 ]
 

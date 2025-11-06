@@ -1,7 +1,7 @@
 import React from 'react';
 import CountUp from 'react-countup';
 
-var bgimg1 = require('./../../images/background/bg-1.jpg');
+var bgimg1 = require('./../../images/azim/6.png');
 var bgimg2 = require('./../../images/background/bg-5.png');
 
 class Statistics1 extends React.Component {

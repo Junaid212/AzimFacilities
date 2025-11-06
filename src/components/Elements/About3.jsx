@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import ReactPlayer from 'react-player';
 
-var bgimg1 = require('./../../images/video-bg.jpg');
+var bgimg1 = require('./../../images/azim/5.png');
 
 class About3 extends React.Component {
     render() {
@@ -14,14 +14,24 @@ class About3 extends React.Component {
                             <div className="row">
                                 <div className="col-xl-6 col-lg-6 col-md-12">
                                     <div className="about-home-3 m-b30 bg-white">
-                                        <h3 className="m-t0 m-b20 sx-tilte">A small efficient interior design team.</h3>
-                                        <p>Inteshape is a team of highly talented, experienced, and award-winning architects and designers. Our company has been the leading provider of architecture services to clients throughout the USA since 1999. We pay attention to every demand...</p>
-                                        <ul className="list-angle-right anchor-line">
-                                            <li><NavLink to="/about-1">We provide a architectural 3D modeling services.</NavLink></li>
-                                            <li><NavLink to="/about-1">Our specialists are ready to consult you on any topic.</NavLink></li>
-                                            <li><NavLink to="/about-1">We develop and implement better interior design.</NavLink></li>
-                                            <li><NavLink to="/about-1">We provide high-quality interior services for clients.</NavLink></li>
-                                        </ul>
+                                        <h3 className="m-t0 m-b20 sx-tilte">What Azim Facilities Do</h3>
+                                        <p>We provide highly trained and professional hospitality staff, including butlers, captains, bartenders, waiters/waitresses, hosts/hostesses, and commis personnel. Our team delivers exceptional service, ensuring a refined and seamless guest experience for hotels, events, and luxury venues.</p>
+                                        <ul class="list-angle-right anchor-line two-column-list">
+  <li>Butlers</li>
+  <li>Captains</li>
+  <li>Bartenders</li>
+  <li>Waiters/Waitresses</li>
+  <li>Hosts/Hostesses</li>
+  <li>Commis personnel</li>
+</ul>
+<style>{`
+.two-column-list {
+  columns: 2; /* splits list into 2 columns */
+  column-gap: 40px;
+  list-style-position: inside;
+}
+
+`}</style>
                                         <div className="text-left">
                                             <NavLink to="/about-1" className="site-button btn-half"><span>Read More</span></NavLink>
                                         </div>
@@ -31,7 +41,7 @@ class About3 extends React.Component {
                                     <div className="video-section-full-v2">
                                         <div className="video-section-full bg-no-repeat bg-cover bg-center overlay-wraper m-b30" style={{ backgroundImage: 'url(' + bgimg1 + ')' }}>
                                             <div className="overlay-main bg-black opacity-04" />
-                                            <div className="video-section-inner">
+                                            {/* <div className="video-section-inner">
                                                 <div className="video-section-content">
                                                     <NavLink to={"#"} className="play-now" data-toggle="modal" data-target="#myModal">
                                                         <i className="icon fa fa-play" />
@@ -42,7 +52,7 @@ class About3 extends React.Component {
                                                         <h3 className="sx-title text-white">25 Years<br />Experience</h3>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>

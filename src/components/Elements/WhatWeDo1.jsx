@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 var bgimg1 = require('./../../images/background/bg-5.png');
-var bgimg2 = require('./../../images/background/bg-2.jpg');
+var bgimg2 = require('./../../images/azim/6.png');
 var bgimg3 = require('./../../images/background/cross-line2.png');
 
 class WhatWeDo1 extends React.Component {

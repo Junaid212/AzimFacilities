@@ -72,7 +72,7 @@ class Components extends React.Component {
                             <Route path='/home-6' element={<Home6/>} />
 
                             <Route path='/about-1' element={<About1/>} />
-                            <Route path='/about-2' element={<About2/>} />
+                            <Route path='/about' element={<About2/>} />
 
                             <Route path='/services-1' element={<Services1/>} />
                             <Route path='/services-2' element={<Services2/>} />

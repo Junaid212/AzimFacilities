@@ -7,39 +7,39 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 const services = [
     {
         count: '01',
-        title: 'Plans and Projects',
+        title: 'AZIM Facilities Management & services',
         flaticon: 'flaticon-sketch',
-        image: require('./../../images/services/service-projects/1.jpg'),
+        image: require('./../../images/azim/15.png'),
     },
     {
         count: '02',
-        title: 'Interior',
+        title: 'One Way Limousine WLL',
         flaticon: 'flaticon-stairs',
-        image: require('./../../images/services/service-projects/2.jpg'),
+        image: require('./../../images/azim/16.png'),
     },
     {
         count: '03',
-        title: 'Exterior',
+        title: 'VenYou Events',
         flaticon: 'flaticon-window',
-        image: require('./../../images/services/service-projects/3.jpg'),
+        image: require('./../../images/azim/17.png'),
     },
     {
         count: '04',
-        title: 'Architecture',
+        title: 'Najila Food Trading',
         flaticon: 'flaticon-skyline',
-        image: require('./../../images/services/service-projects/4.jpg'),
+        image: require('./../../images/azim/18.png'),
     },
     {
         count: '05',
-        title: 'Furniture',
+        title: 'Golden Vision Cleaning and Hospitality Services',
         flaticon: 'flaticon-bed',
-        image: require('./../../images/services/service-projects/5.jpg'),
+        image: require('./../../images/azim/19.png'),
     },
     {
         count: '06',
-        title: 'Decoration',
+        title: 'Vadakara To Kasargod Restaurant',
         flaticon: 'flaticon-door',
-        image: require('./../../images/services/service-projects/7.jpg'),
+        image: require('./../../images/azim/20.png'),
     }
 ]
 
@@ -96,7 +96,7 @@ class Services3 extends React.Component {
                                         <div className="bg-content-mid">
                                             <div className="sx-icon-box-wraper center text-white">
                                                 <div className="icon-lg m-b15">
-                                                    <span className="icon-cell"><i className={item.flaticon} /></span>
+                                                    {/* <span className="icon-cell"><i className={item.flaticon} /></span> */}
                                                 </div>
                                                 <div className="icon-content">
                                                     <h4 className="sx-tilte"> <NavLink to={"/services-detail"}  className="sx-text-white"> {item.title}</NavLink></h4>
