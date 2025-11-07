@@ -4,186 +4,81 @@ import Header4 from '../Common/Header4';
 import Footer from '../Common/Footer';
 import Banner from '../Elements/Banner';
 import ShopSidebar from '../Elements/ShopSidebar';
+import Team1 from './Team1';
 
-const products = [
+const locations = [
     {
-        image: require('./../../images/products/pic-1.jpg'),
-        title: 'Happy Ninja',
-        sale: 'no',
-        cutprice: '',
-        price: '36.00'
+        image: require('./../../images/our-history/4.jpg'),
+        title: "We bring the world's finest flavors to your table. Experience the art of taste with us",
+        description: "Najila Food Trading stands as a trusted leader in the food trading industry, renowned for delivering premium-quality products. We source, import, and distribute an extensive selection of food items catering to the food service, wholesale, and retail markets. Through strong partnerships with international suppliers, we guarantee a steady supply of world-class products — from dry, frozen, and fresh goods to live seafood, Japanese specialties, premium meats, and everyday essentials. Najila Food Trading is your gateway to exceptional taste and culinary excellence.",
     },
-    {
-        image: require('./../../images/products/pic-2.jpg'),
-        title: 'Flying Ninja',
-        sale: 'yes',
-        cutprice: '45.00',
-        price: '36.00'
-    },
-    {
-        image: require('./../../images/products/pic-3.jpg'),
-        title: 'Half White',
-        sale: 'no',
-        cutprice: '',
-        price: '29.00'
-    },
-    {
-        image: require('./../../images/products/pic-4.jpg'),
-        title: 'Woo Ninja',
-        sale: 'no',
-        cutprice: '',
-        price: '59.00'
-    },
-    {
-        image: require('./../../images/products/pic-5.jpg'),
-        title: 'Woo logo',
-        sale: 'yes',
-        cutprice: '45.00',
-        price: '36.00'
-    },
-    {
-        image: require('./../../images/products/pic-6.jpg'),
-        title: 'Happy Ninja',
-        sale: 'no',
-        cutprice: '',
-        price: '99.00'
-    },
-    {
-        image: require('./../../images/products/pic-7.jpg'),
-        title: 'Woo Ninja',
-        sale: 'no',
-        cutprice: '',
-        price: '45.00'
-    },
-    {
-        image: require('./../../images/products/pic-8.jpg'),
-        title: 'Danger black',
-        cutprice: '',
-        price: '29.00'
-    },
-    {
-        image: require('./../../images/products/pic-1.jpg'),
-        title: 'Happy Ninja',
-        sale: 'no',
-        cutprice: '',
-        price: '59.00'
-    },
-    {
-        image: require('./../../images/products/pic-2.jpg'),
-        title: 'Flying Ninja',
-        sale: 'no',
-        cutprice: '',
-        price: '45.00'
-    }
+    // {
+    //     image: require('./../../images/our-history/1.jpg'),
+    //     title: 'Concept Development.',
+    //     description: 'Fantastic service from start to finish. After our ceiling collapsed we never thought our damaged floor would look so good again. These guys worked in a tight time frame and were very accommodating to the other trades working in the same area to produce brilliant results and restore our badly damaged floor to look like new!',
+    // },
+    // {
+    //     image: require('./../../images/our-history/2.jpg'),
+    //     title: 'Design Development.',
+    //     description: 'The floor looks magnificent and the parquet in the hall sets it off beautifully. Your men were excellent, you were delightful and nothing was too much trouble for you. You have very tidy workers, covering everything, and the house was left in a good shape as the condition allowed.',
+    // },
+    // {
+    //     image: require('./../../images/our-history/3.jpg'),
+    //     title: 'Construction Documentation.',
+    //     description: 'I just wanted to say thank you and the team very much for the brilliant service around renovating the floors at our house. You were absolutely brilliant and we can see you’ve gone the extra mile matching the floors between rooms etc. You’ve kept the place really tidy too, cannot ask for more.',
+    // }
 ]
+
+var bnrimg = require('./../../images/banner/5.jpg');
 
 var bnrimg = require('./../../images/banner/4.jpg');
 
 class ShopGrid extends React.Component {
-    componentDidMount() {
-        function loadScript(src) {
-
-            return new Promise(function (resolve, reject) {
-                var script = document.createElement('script');
-                script.src = src;
-                script.addEventListener('load', function () {
-                    resolve();
-                });
-                script.addEventListener('error', function (e) {
-                    reject(e);
-                });
-                document.body.appendChild(script);
-                document.body.removeChild(script);
-            })
-        };
-
-        loadScript('./assets/js/custom.js');
-
-    };
     render() {
         return (
             <>
                 <Header4 />
                 <div className="page-content">
-                    <Banner title="Shop Page" pagename="Shop" description="The essence of interior design will always be about people and how they live. It is about the realities of what makes for an attractive, civilized." bgimage={bnrimg} />
-                    {/* SHOP SECTION START */}
-                    <div className="section-full p-t120 p-b90 bg-white mobile-page-padding">
+                    <Banner title=" Najila Food Tradings" pagename="Food Trading" description="We bring the world's finest flavors to your table. Experience the art of taste with us." bgimage={bnrimg}/>
+                    {/* ABOUT COMPANY SECTION START */}
+                    <div className="section-full p-t80 p-b50	 bg-white inner-page-padding">
                         <div className="container">
-                            <div className="product-filter-wrap d-flex justify-content-between align-items-center m-b30">
-                                <div className="list-grid-control">
-                                <NavLink to={"/shop-grid"} className="active"><i className="fa fa-th" /></NavLink>
-                                <NavLink to={"/shop-list"}><i className="fa fa-th-list" /></NavLink>
-                                </div>
-                                <span className="woocommerce-result-count">Showing 1–10 of 13 results</span>
-                                <form className="woocommerce-ordering select-box-border-style1-wrapper" method="get">
-                                    <select name="orderby" className="orderby select-box-border-style1" aria-label="Shop order">
-                                        <option value="menu_order" selected="selected">Default sorting</option>
-                                        <option value="popularity">Sort by popularity</option>
-                                        <option value="rating">Sort by average rating</option>
-                                        <option value="date">Sort by latest</option>
-                                        <option value="price">Sort by price: low to high</option>
-                                        <option value="price-desc">Sort by price: high to low</option>
-                                    </select>
-                                    <input type="hidden" name="paged" defaultValue={1} />
-                                </form>
-                            </div>
-                            <div className="row d-flex justify-content-center">
-                                <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 m-b30">
-                                    <div className="row">
-                                        {products.map((item, index) => (
-                                            <div key={index} className="col-lg-6 col-md-6 m-b30">
-                                                <div className="sx-box sx-product-box overflow-hide">
-                                                    {(`${item.sale}` === 'yes') ? <div className="shop-pro-sale-bnr">Sale!</div> : ''}
-                                                    <div className="sx-thum-bx sx-img-overlay1">
-                                                        <img src={item.image} alt="" />
-                                                        <div className="item-cart-view">
-                                                            <div className="item-cart-btn">
-                                                                <NavLink to={"/shop-detail"}>
-                                                                    <i className="fa fa-cart-plus" />
-                                                                </NavLink>
-                                                            </div>
-                                                            <div className="item-cart-btn">
-                                                                <NavLink to={"/shop-detail"}>
-                                                                    <i className="fa fa-heart" />
-                                                                </NavLink>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="sx-info p-t20 text-center">
-                                                        <h5 className="sx-title">
-                                                        <NavLink to={"/shop-detail"}>{item.title}</NavLink>
-                                                        </h5>
-                                                        <span className="price">
-                                                            {(`${item.sale}` === 'yes') ? <del><span><span className="Price-currencySymbol">$ </span>{item.cutprice}</span></del> : ''}
-                                                            <ins>
-                                                                <span><span className="Price-currencySymbol">$ </span>{item.price}</span>
-                                                            </ins>
-                                                        </span>
-                                                    </div>
+                            <div className="section-content ">
+                                <div className="our-history text-black">
+                                    {locations.map((item, index) => (
+                                        <div className="row" key={index}>
+                                            <div className="col-12 pic-bg-border">
+                                                <div className="our-history-pic bg-no-repeat bg-center bg-cover" data-stellar-background-ratio="0.5" style={{ backgroundImage: 'url(' + item.image + ')' }}>
                                                 </div>
                                             </div>
-                                        ))}
-                                    </div>
-                                    <div className="text-center">
-                                        <ul className="pagination-st-1 m-t30 m-b0">
-                                            <li><NavLink to={"#"}><span className="fa fa-chevron-left" /></NavLink></li>
-                                            <li><NavLink to={"#"}>1</NavLink></li>
-                                            <li className="active"><NavLink to={"#"}>2</NavLink></li>
-                                            <li><NavLink to={"#"}>3</NavLink></li>
-                                            <li><NavLink to={"#"}><span className="fa fa-chevron-right" /></NavLink></li>
-                                        </ul>
-                                    </div>
+                                            <div className="col-12">
+                                                <div className="our-history-content m-b30">
+                                                    <div className="large-title">
+                                                        <h2 className="m-t0">{item.title}</h2>
+                                                    </div>
+                                                    <p>{item.description}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ))}
                                 </div>
-                                {/* SIDE BAR START */}
-                                <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 sticky_column  m-b30">
-                                    <ShopSidebar />
-                                </div>
-                                {/* SIDE BAR END */}
                             </div>
                         </div>
+                        <div className="blog-single-space max-w900 ml-auto mr-auto">
+                            <blockquote className="bdr-1 bdr-solid bdr-gray author-quote">
+                                            <h4 className="m-b0">For more details, check out the link below!<i className="fa fa-quote-left" /> </h4>
+                                            <div className="p-t15">
+                                                <strong>najilafood.com</strong>
+                                                {/* <span>Interior Designer</span> */}
+                                            </div>
+                                        </blockquote>
+                        </div>
                     </div>
-                    {/* SHOP SECTION END */}
+                    {/* ABOUT COMPANY SECTION END */}
+                    
                 </div>
+                
+                <Team1 />
 
                 <Footer />
             </>

@@ -48,21 +48,21 @@ class Navigation extends React.Component {
                     <li>
                         <NavLink to={"/services-1"}>Service</NavLink>
                         <ul className="sub-menu">
-                            <li><NavLink to={"project-detail1"}>Facilities Management & services</NavLink></li>
-                            <li><NavLink to={""}>One Way Limousine</NavLink></li>
-                            <li><NavLink to={"/our-history"}>VenYou Events</NavLink></li>
-                            <li><NavLink to={"/icon-font"}>Food Trading</NavLink></li>
-                            <li><NavLink to={"/error-404"}>Cleaning and Hospitality Services</NavLink></li>
+                            <li><NavLink to={"/project-detail1"}>Facilities Management & services</NavLink></li>
+                            <li><NavLink to={"/home-5"}>One Way Limousine</NavLink></li>
+                            <li><NavLink to={"/about-1"}>VenYou Events</NavLink></li>
+                            <li><NavLink to={"/shop-grid"}>Food Trading</NavLink></li>
+                            <li><NavLink to={"/blog-single"}>Cleaning and Hospitality Services</NavLink></li>
                             <li><NavLink to={"/error-404"}>Restaurant</NavLink></li>
                         </ul>
                     </li>
                     <li>
                         <NavLink to={""}>Sector</NavLink>
                         <ul className="sub-menu">
-                            <li><NavLink to={""}>Project Grid Type</NavLink></li>
-                            <li><NavLink to={""}>Project Masonry Type</NavLink></li>
-                            <li><NavLink to={"/project-carousel"}>Project Carousel</NavLink></li>
-                            <li><NavLink to={""}>Project Detail</NavLink></li>
+                            <li><NavLink to={""}>Residential</NavLink></li>
+                            <li><NavLink to={""}>Government</NavLink></li>
+                            <li><NavLink to={"/project-carousel"}>Real Estate</NavLink></li>
+                            <li><NavLink to={""}>Education</NavLink></li>
                         </ul>
                     </li>
                     {/* <li>

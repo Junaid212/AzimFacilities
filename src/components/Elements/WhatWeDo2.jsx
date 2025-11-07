@@ -4,35 +4,66 @@ import { NavLink } from 'react-router-dom';
 const services = [
     {
         count: '01',
-        title: 'Architecture',
-        description: 'We combine Interior and Exterior Design services and often provide them as a single solution. It helps us...',
+        title: 'Corporate events',
+        list: [
+            'Exhibitions/Conferences',
+            'Brand Activations & Promotions',
+            'Gala Dinners & More..',
+        ],
     },
     {
         count: '02',
-        title: 'Planning',
-        description: 'Landscape plans for drainage problems may also entail planting beds away from the home’s foundation.',
+        title: 'Social Events',
+        list: [
+            "Family Day Out's (With Live Cooking)",
+            'Birthday Parties',
+            'Sports Day & More...',
+        ],
     },
     {
         count: '03',
-        title: 'Exterior',
-        description: 'We offer comprehensive Architectural Engineering Services including Interior design, Master planning...',
+        title: 'Event Staffing',
+        list: [
+            'Promoters',
+            'Hostesses',
+            'Show Hosts',
+            'Master of Ceremony (MCs) Event Professionals & More..',
+        ],
     },
     {
         count: '04',
-        title: 'Decoration',
-        description: 'We provide a range of architectural 3D modeling services to our customers to aid the design, planning...',
+        title: 'Entertainment',
+        list: [
+            'Artists',
+            'Performers',
+            'Entertainers',
+            'talents & More...',
+        ],
     },
     {
         count: '05',
-        title: 'Interior Planing',
-        description: 'Project management is the process by which our team plans and executes your project. We will develop...',
+        title: 'Production and Setup',
+        list: [
+            'Sound, Light & Stage set-up',
+            'Concept, Design &Execution',
+            'Full Theme Stage set-up’s',
+            'Full Venue branding',
+            'Furniture rentals & More...',
+        ],
     },
     {
         count: '06',
-        title: 'Style Selection',
-        description: 'Our team also provides consultations on all architectural issues, even if you need specific info about working...',
+        title: 'Weddings',
+        list: [
+            'Venue Booking & Decor',
+            'A to Z management of entire wedding ceremony',
+            'Video &Photo Coverage',
+            'PR & Media booking',
+            'Bridal Shower Ceremony Catering & More...',
+        ],
     },
 ]
+
 
 var bgimg1 = require('./../../images/background/bg-5.png');
 var bgimg2 = require('./../../images/background/cross-line2.png');
@@ -48,7 +79,7 @@ class WhatWeDo2 extends React.Component {
                             <div className="section-head">
                                 <div className="sx-separator-outer separator-center">
                                     <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(' + bgimg2 + ')' }}>
-                                        <h3 className="sep-line-one">What We Do</h3>
+                                        <h3 className="sep-line-one">Service We Provide</h3>
                                     </div>
                                 </div>
                             </div>
@@ -59,10 +90,16 @@ class WhatWeDo2 extends React.Component {
                                 {services.map((item, index) => (
                                     <div className="col-lg-4 col-md-6 col-sm-12 m-b30" key={index}>
                                         <div className="number-block-two animate-in-to-top bdr-gray-light bdr-solid bdr-1">
-                                            <div className="figcaption bg-white  p-a30">
-                                                <h4 className="m-t0">{item.title}</h4>
-                                                <p>{item.description}</p>
-                                                <NavLink to={"/services-detail"} className="site-button-link">Read More</NavLink>
+                                            <div className="figcaption bg-white p-a30">
+                                                <h4 className="m-t0" style={{color:'#e17c27'}}>{item.title}</h4>
+                                                
+                                                {/* Render bullet points here */}
+                                                <ul className="service-list">
+                                                    {item.list.map((point, i) => (
+                                                        <li key={i}>{point}</li>
+                                                    ))}
+                                                </ul>
+
                                                 <div className="figcaption-number animate-in-to-top-content">
                                                     <span>{item.count}</span>
                                                 </div>
@@ -72,6 +109,7 @@ class WhatWeDo2 extends React.Component {
                                 ))}
                             </div>
                         </div>
+
                     </div>
                 </div>
             </>

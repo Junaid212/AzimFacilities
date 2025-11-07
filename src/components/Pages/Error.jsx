@@ -12,7 +12,7 @@ class Error extends React.Component {
             <>
                 <Header4 />
                 <div className="page-content">
-                    <Banner title="Error 404" pagename="Error" description="The essence of interior design will always be about people and how they live. It is about the realities of what makes for an attractive, civilized." bgimage={bnrimg}/>
+                    <Banner title="Vadakara To Kasargod Restaurant" pagename="Restaurant" description="A culinary experience that embodies true authenticity." bgimage={bnrimg}/>
                     {/* SECTION CONTENTG START */}
                     <div className="section-full mobile-page-padding p-tb150 bg-bottom-left bg-no-repeat" style={{ backgroundImage: 'url(images/background/bg-4.png)' }}>
                         <div className="container">
@@ -22,10 +22,10 @@ class Error extends React.Component {
                                         <img src={require('./../../images/error-404.png')} alt="" />
                                     </div>
                                     <div className="col-md-5">
-                                        <strong>Page Not Found</strong>
-                                        <span className="title">Error 404</span>
-                                        <p>The Page Requested Could not be foundwe're working on it</p>
-                                        <NavLink to={"/"} title="Back to home" className="site-button btn-half"><span> Back to home</span></NavLink>
+                                        <strong>Welcome To Our Restaurant</strong>
+                                        <span className="title">Vadakara To Kasargod Restaurant</span>
+                                        <p>Where culinary delight meets the essence of Vadakara and Kasargod. Our multi-cuisine restaurant invites you on a gastronomic journey that captures the rich flavors and cultural nuances of these vibrant locales. Indulge your taste buds in a unique fusion of culinary traditions, bringing the best of Vadakara and Kasargod to your plate.</p>
+                                        <a className="site-button btn-half" target="_blank" href="https://maps.app.goo.gl/pdNRddpxjVnbR8DX6"><span> Location</span></a>
                                     </div>
                                 </div>
                             </div>

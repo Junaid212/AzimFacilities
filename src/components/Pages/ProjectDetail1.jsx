@@ -37,7 +37,7 @@ class ProjectDetail1 extends React.Component {
             <>
                 <Header4 />
                 <div className="page-content">
-                    <Banner title="AZIM Facilities Management & services" pagename="AZIM Facilities" description="" bgimage={bnrimg} />
+                    <Banner title="AZIM Facilities Management & services" pagename="AZIM Facilities" description="Crafting Elevated Experiences: Where Excellence Meets Service. Your space, our commitment." bgimage={bnrimg} />
 
                     {/* SECTION CONTENT START */}
                     <div className={`${this.props.bgcolor} section-full mobile-page-padding p-t80 p-b50`}>

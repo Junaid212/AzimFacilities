@@ -40,7 +40,7 @@ class About3 extends React.Component {
                                 <div className="col-xl-6 col-lg-6 col-md-12">
                                     <div className="video-section-full-v2">
                                         <div className="video-section-full bg-no-repeat bg-cover bg-center overlay-wraper m-b30" style={{ backgroundImage: 'url(' + bgimg1 + ')' }}>
-                                            <div className="overlay-main bg-black opacity-04" />
+                                            <div className="overlay-main " />
                                             {/* <div className="video-section-inner">
                                                 <div className="video-section-content">
                                                     <NavLink to={"#"} className="play-now" data-toggle="modal" data-target="#myModal">

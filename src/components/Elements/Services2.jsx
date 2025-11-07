@@ -89,7 +89,7 @@ class Services2 extends React.Component {
                         {services.map((item, index) => (
                             <div className="item" key={index}>
                                 <div className="bgcall-block d-flex flex-wrap justify-content-center align-content-end bg-cover overlay-wraper" style={{ backgroundImage: 'url(' + item.image + ')' }}>
-                                    <div className="overlay-main bg-black opacity-05" />
+                                    <div className="overlay-main " />
                                     <div className="bg-content-mid-outer">
                                         <div className="bg-content-mid">
                                             <div className="sx-icon-box-wraper center   text-white">

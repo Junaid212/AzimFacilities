@@ -33,7 +33,7 @@ class BlogSingle extends React.Component {
             <>
                 <Header4 />
                 <div className="page-content ">
-                    <Banner title="Blog Single Style" pagename="Blog Single" description="The essence of interior design will always be about people and how they live. It is about the realities of what makes for an attractive, civilized." bgimage={bnrimg}/>
+                    <Banner title="Golden Vision Cleaning and Hospitality Services" pagename="Cleaning and Hospitality Services" description="Where cleanliness meets a warm welcome — your comfort is our commitment." bgimage={bnrimg}/>
                     {/* SECTION CONTENT START */}
                     <div className="section-full p-t80 p-b50 inner-page-padding">
                         <div className="container">
@@ -47,25 +47,26 @@ class BlogSingle extends React.Component {
                                     </div>
                                     <div className="sx-post-meta  m-t20">
                                         <ul>
-                                            <li className="post-date"><strong>20 </strong> <span>Septembar 2022</span> </li>
+                                            {/* <li className="post-date"><strong>20 </strong> <span>Septembar 2022</span> </li>
                                             <li className="post-author"><NavLink to={"#"}>By <span>Admin</span></NavLink> </li>
-                                            <li className="post-category"><NavLink to={"#"}><span>Architecture</span></NavLink> </li>
+                                            <li className="post-category"><NavLink to={"#"}><span>Architecture</span></NavLink> </li> */}
                                         </ul>
                                     </div>
                                     <div className="sx-post-title ">
-                                        <h3 className="post-title">Blog post with image slider there are many variations of passages.</h3>
+                                        <h3 className="post-title">Golden Vision Cleaning and Hospitality Services</h3>
                                     </div>
                                     <div className="sx-post-text">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>
+                                        <p>Introducing Golden Vision Hospitality and Cleaning Services, an esteemed extension of Azim Facilities Management and Services. Specializing in the meticulous cleaning of both building exteriors and interiors, Golden Vision takes pride in delivering unparalleled cleanliness and hygiene standards.</p>
                                         <p>
-                                        </p><blockquote className="bdr-1 bdr-solid bdr-gray author-quote">
+                                        </p>
+                                        {/* <blockquote className="bdr-1 bdr-solid bdr-gray author-quote">
                                             <h4 className="m-b0">We let our quality work and commitment to customer satisfaction be our slogan. quality you deserve and dependability you can count on.<i className="fa fa-quote-left" /> </h4>
                                             <div className="p-t15">
                                                 <strong>Jessica Mcdade</strong>
                                                 <span>Interior Designer</span>
                                             </div>
-                                        </blockquote>
-                                        <div className="row">
+                                        </blockquote> */}
+                                        {/* <div className="row">
                                             <div className="col-md-6">
                                                 <div className="sx-box m-b30">
                                                     <div className="sx-media">
@@ -80,10 +81,10 @@ class BlogSingle extends React.Component {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with the . Proin tincidunt tellus ac porta volutpat. Cras mattis congue lacus id bibendum. Mauris ut sodales libero. Maecenas feugiat sit amet enim in accumsan. Here, then, is what I wanted to tell you of my architecture. I created it with courage and idealism, but also with an awareness of the fact that what is important is life, friends, and attempting to make this unjust world a better place in which to live.</p>
+                                        </div> */}
+                                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with the . Proin tincidunt tellus ac porta volutpat. Cras mattis congue lacus id bibendum. Mauris ut sodales libero. Maecenas feugiat sit amet enim in accumsan. Here, then, is what I wanted to tell you of my architecture. I created it with courage and idealism, but also with an awareness of the fact that what is important is life, friends, and attempting to make this unjust world a better place in which to live.</p> */}
                                     </div>
-                                    <div className="autor-post-tag-share p-a30 bg-gray">
+                                    {/* <div className="autor-post-tag-share p-a30 bg-gray">
                                         <div className="row">
                                             <div className="col-md-12">
                                                 <div className="widget_tag_cloud m-b15">
@@ -118,26 +119,26 @@ class BlogSingle extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="post-controls p-t30">
+                                    </div> */}
+                                    {/* <div className="post-controls p-t30">
                                         <div className="d-flex justify-content-between">
                                             <div className="prev-post"><NavLink to={"#"}>Prev Article</NavLink></div>
                                             <div className="next-post"><NavLink to={"#"}>Next Article</NavLink></div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 {/* OUR BLOG START */}
                                 {/* TITLE START */}
-                                <div className="section-head">
+                                {/* <div className="section-head">
                                     <div className="sx-separator-outer separator-left">
                                         <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(' + bgimg1 + ')' }}>
                                             <h3 className="sep-line-one">Blog</h3>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 {/* TITLE END */}
                                 {/* IMAGE CAROUSEL START */}
-                                <div className="section-content">
+                                {/* <div className="section-content">
                                     <div className="row">
                                         <div className="col-md-4 col-sm-12">
                                             <div className="blog-post blog-grid date-style-2">
@@ -206,11 +207,11 @@ class BlogSingle extends React.Component {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 {/* OUR BLOG END */}
                                 <div className="clear" id="comment-list">
                                     <div className="comments-area" id="comments">
-                                        <h2 className="comments-title">3 Comments</h2>
+                                        <h2 className="comments-title">We are specialized in</h2>
                                         <div className="comments-outer p-tb30">
                                             {/* COMMENT LIST START */}
                                             <ol className="comment-list">
@@ -218,16 +219,16 @@ class BlogSingle extends React.Component {
                                                     {/* COMMENT BLOCK */}
                                                     <div className="comment-body">
                                                         <div className="comment-meta">
-                                                            <NavLink to={"#"}>20 Sep 2022</NavLink>
+                                                            {/* <NavLink to={"#"}>20 Sep 2022</NavLink> */}
                                                         </div>
                                                         <div className="comment-author vcard">
                                                             <img className="avatar photo" src={require('./../../images/testimonials/pic4.jpg')} alt=""/>
-                                                            <cite className="fn"> Schiocchet </cite>
+                                                            <cite className="fn"> Exterior Building Cleaning </cite>
                                                             <span className="says">says:</span>
                                                         </div>
-                                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                                                        <p>Professional cleaning of building exteriors to remove dirt, grime, and environmental pollutants. This service enhances the building’s appearance and helps maintain its structural integrity. </p>
                                                         <div className="reply">
-                                                            <NavLink to={"#"} className="comment-reply-link letter-spacing-2 text-uppercase">Reply</NavLink>
+                                                            {/* <NavLink to={"#"} className="comment-reply-link letter-spacing-2 text-uppercase">Reply</NavLink> */}
                                                         </div>
                                                     </div>
                                                     {/* SUB COMMENT BLOCK */}
@@ -235,32 +236,32 @@ class BlogSingle extends React.Component {
                                                         <li className="comment odd parent">
                                                             <div className="comment-body">
                                                                 <div className="comment-meta">
-                                                                    <NavLink to={"#"}>22 Sep 2022</NavLink>
+                                                                    {/* <NavLink to={"#"}>22 Sep 2022</NavLink> */}
                                                                 </div>
                                                                 <div className="comment-author vcard">
                                                                     <img className="avatar photo" src={require('./../../images/testimonials/pic3.jpg')} alt=""/>
-                                                                    <cite className="fn">Brayden</cite>
+                                                                    <cite className="fn">Deep Interior Cleaning</cite>
                                                                     <span className="says">says:</span>
                                                                 </div>
-                                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words. </p>
+                                                                <p>Comprehensive deep cleaning of interiors, including scrubbing, sanitizing, and decluttering. Ensures the removal of dirt, dust, and grime, leaving spaces spotless and hygienic. </p>
                                                                 <div className="reply">
-                                                                    <NavLink to={"#"} className="comment-reply-link letter-spacing-2 text-uppercase">Reply</NavLink>
+                                                                    {/* <NavLink to={"#"} className="comment-reply-link letter-spacing-2 text-uppercase">Reply</NavLink> */}
                                                                 </div>
                                                             </div>
                                                             <ol className="children">
                                                                 <li className="comment odd parent">
                                                                     <div className="comment-body">
                                                                         <div className="comment-meta">
-                                                                            <NavLink to={"#"}>24 Oct 2019</NavLink>
+                                                                            {/* <NavLink to={"#"}>24 Oct 2019</NavLink> */}
                                                                         </div>
                                                                         <div className="comment-author vcard">
                                                                             <img className="avatar photo" src={require('./../../images/testimonials/pic2.jpg')} alt="" />
-                                                                            <cite className="fn">Diego</cite>
+                                                                            <cite className="fn">Hygiene & Cleaning Services for Hotels and Residences</cite>
                                                                             <span className="says">says:</span>
                                                                         </div>
-                                                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                                                        <p>Specialized cleaning and hygiene solutions designed for hotels and residential properties. Delivering tailored services that ensure exceptional cleanliness, guest satisfaction, and resident comfort.</p>
                                                                         <div className="reply">
-                                                                            <NavLink to={"#"} className="comment-reply-link letter-spacing-2 text-uppercase">Reply</NavLink>
+                                                                            {/* <NavLink to={"#"} className="comment-reply-link letter-spacing-2 text-uppercase">Reply</NavLink> */}
                                                                         </div>
                                                                     </div>
                                                                 </li>
@@ -271,7 +272,7 @@ class BlogSingle extends React.Component {
                                             </ol>
                                             {/* COMMENT LIST END */}
                                             {/* LEAVE A REPLY START */}
-                                            <div className="comment-respond m-t30" id="respond">
+                                            {/* <div className="comment-respond m-t30" id="respond">
                                                 <h2 className="comment-reply-title" id="reply-title">Leave a Comments
                                                     <small>
                                                     <NavLink to={"#"} style={{ display: 'none' }} id="cancel-comment-reply-link" rel="nofollow">Cancel reply</NavLink>
@@ -298,7 +299,7 @@ class BlogSingle extends React.Component {
                                                         <button className="site-button btn-half" type="button"><span> Submit</span></button>
                                                     </p>
                                                 </form>
-                                            </div>
+                                            </div> */}
                                             {/* LEAVE A REPLY END */}
                                         </div>
                                     </div>

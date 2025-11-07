@@ -46,7 +46,7 @@ class Header2 extends React.Component {
         return (
             <>
                 <header className="site-header nav-wide nav-transparent mobile-sider-drawer-menu">
-                    <div className="top-bar sx-bg-secondry">
+                    {/* <div className="top-bar sx-bg-secondry">
                         <div className="container">
                             <div className="d-flex justify-content-between ">
                                 <ul className="list-unstyled e-p-bx text-white">
@@ -61,7 +61,7 @@ class Header2 extends React.Component {
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="sticky-header main-bar-wraper navbar-expand-lg">
                         <div className="main-bar">
                             <div className="container clearfix">
@@ -85,7 +85,7 @@ class Header2 extends React.Component {
                                 <div className="extra-nav">
                                     <div className="extra-cell">
                                         <NavLink to={"#"} onClick={this.handleSearchToggle}>
-                                            <i className="fa fa-search" />
+                                            {/* <i className="fa fa-search" /> */}
                                         </NavLink>
                                     </div>
                                 </div>

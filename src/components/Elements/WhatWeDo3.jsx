@@ -4,44 +4,44 @@ import { NavLink } from 'react-router-dom';
 const services = [
     {
         count: '01',
-        title: 'Architecture',
+        title: 'Pick and Drop Services',
         image: require('./../../images/services/service-projects/1.jpg'),
     },
     {
         count: '02',
-        title: 'Planning',
+        title: 'Punctuality and Safety',
         image: require('./../../images/services/service-projects/2.jpg'),
     },
     {
         count: '03',
-        title: 'Exterior',
+        title: 'Hospitable Chauffeurs',
         image: require('./../../images/services/service-projects/3.jpg'),
     },
-    {
-        count: '04',
-        title: 'Decoration',
-        image: require('./../../images/services/service-projects/4.jpg'),
-    },
-    {
-        count: '05',
-        title: 'Interior Planing',
-        image: require('./../../images/services/service-projects/5.jpg'),
-    },
-    {
-        count: '06',
-        title: 'Style Selection',
-        image: require('./../../images/services/service-projects/6.jpg'),
-    },
-    {
-        count: '07',
-        title: 'Architecture',
-        image: require('./../../images/services/service-projects/7.jpg'),
-    },
-    {
-        count: '08',
-        title: 'Planning',
-        image: require('./../../images/services/service-projects/8.jpg'),
-    }
+    // {
+    //     count: '04',
+    //     title: 'Decoration',
+    //     image: require('./../../images/services/service-projects/4.jpg'),
+    // },
+    // {
+    //     count: '05',
+    //     title: 'Interior Planing',
+    //     image: require('./../../images/services/service-projects/5.jpg'),
+    // },
+    // {
+    //     count: '06',
+    //     title: 'Style Selection',
+    //     image: require('./../../images/services/service-projects/6.jpg'),
+    // },
+    // {
+    //     count: '07',
+    //     title: 'Architecture',
+    //     image: require('./../../images/services/service-projects/7.jpg'),
+    // },
+    // {
+    //     count: '08',
+    //     title: 'Planning',
+    //     image: require('./../../images/services/service-projects/8.jpg'),
+    // }
 ]
 
 var bgimg1 = require('./../../images/background/cross-line2.png');
@@ -57,7 +57,7 @@ class WhatWeDo3 extends React.Component {
                         <div className="section-head">
                             <div className="sx-separator-outer separator-center">
                                 <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(' + bgimg2 + ')' }}>
-                                    <h3 className="sep-line-one">What We Do</h3>
+                                    {/* <h3 className="sep-line-one">What We Do</h3> */}
                                 </div>
                             </div>
                         </div>
