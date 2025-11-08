@@ -1,8 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Header4 from './../Common/Header4';
+// import Header4 from './../Common/Header4';
 import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
+import Header4 from '../Common/Header4';
 
 const teamMembers = [
     {
@@ -43,7 +44,8 @@ class Team2 extends React.Component {
     render() {
         return (
             <>
-                <Header4 />
+                {/* <Header4/> */}
+                <Header4/>
                 <div className="page-content">
                     <Banner title="Our Experts 2" pagename="Team Style 2" description="The essence of interior design will always be about people and how they live. It is about the realities of what makes for an attractive, civilized." bgimage={bnrimg} />
                     {/* OUR EXPERTS SECTION START */}
