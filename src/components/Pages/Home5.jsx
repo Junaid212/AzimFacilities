@@ -3,7 +3,7 @@ import Header4 from './../Common/Header4';
 import Footer2 from './../Common/Footer2';
 import Slider5 from './../Elements/Slider5';
 import About4 from './../Elements/About4';
-import Header2 from '../Common/Header2';
+import Header2 from './../Common/Header2';
 import Banner from '../Elements/Banner';
 import WhatWeDo3 from '../Elements/WhatWeDo3';
 var bnrimg = require('./../../images/banner/2.jpg');

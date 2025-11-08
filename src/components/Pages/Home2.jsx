@@ -1,5 +1,5 @@
 import React from 'react';
-import Header2 from '../Common/Header2';
+import Header2 from './../Common/Header2';
 import Footer2 from '../Common/Footer2';
 import Slider2 from './../Elements/Slider2';
 import About2 from './../Elements/About2';
