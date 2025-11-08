@@ -10,7 +10,7 @@ import ClientsLogo1 from './../Elements/ClientsLogo1';
 import { NavLink } from 'react-router-dom';
 import Blog2 from '../Elements/Blog2';
 import Services3 from '../Elements/Services3';
-import Header2 from './../Common/Header2';
+// import Header2 from './../Common/Header2';
 
 var bnrimg = require('./../../images/azim/13.png');
 var bgimg1 = require('./../../images/azim/14.png');

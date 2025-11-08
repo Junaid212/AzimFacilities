@@ -5,7 +5,7 @@ import Footer from '../Common/Footer';
 import Banner from '../Elements/Banner';
 import ShopSidebar from '../Elements/ShopSidebar';
 import Team1 from './Team1';
-import Header2 from './../Common/Header2';
+// import Header2 from './../Common/Header2';
 
 const locations = [
     {

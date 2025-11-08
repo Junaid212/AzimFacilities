@@ -6,7 +6,7 @@ import WhatWeDo6 from './../Elements/WhatWeDo6';
 import Services6 from './../Elements/Services6';
 import Services7 from './../Elements/Services7';
 import ClientsLogo2 from './../Elements/ClientsLogo2';
-import Header2 from './../Common/Header2';
+// import Header2 from './../Common/Header2';
 
 var bnrimg = require('./../../images/banner/6.jpg');
 
