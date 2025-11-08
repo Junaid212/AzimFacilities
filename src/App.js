@@ -10,6 +10,7 @@ const App = () => {
       <Components />
       <ScrolToTop/>
       {/* <Loader/>   */}
+      {/* ?new */}
     </div>
   );
 }
