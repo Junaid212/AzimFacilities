@@ -10,7 +10,7 @@ import Testimonials2 from './../Elements/Testimonials2';
 import { NavLink } from 'react-router-dom';
 import WhatWeDo3 from '../Elements/WhatWeDo3';
 import WhatWeDo2 from '../Elements/WhatWeDo2';
-import Header2 from '../Common/Header2';
+import Header2 from './../Common/Header2';
 
 var bnrimg = require('./../../images/banner/5.jpg');
 var bgimg2 = require('./../../images/banner/5.jpg');

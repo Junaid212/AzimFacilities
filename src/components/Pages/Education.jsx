@@ -4,7 +4,7 @@ import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 import SimilarProjects from '../Elements/SimilarProjects';
 import Achievements1 from '../Elements/Achievements1';
-import Header2 from '../Common/Header2';
+import Header2 from './../Common/Header2';
 import { NavLink } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';

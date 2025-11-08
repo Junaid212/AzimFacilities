@@ -6,7 +6,7 @@ import Banner from './../Elements/Banner';
 import ShopSidebar from '../Elements/ShopSidebar';
 import Blog2 from '../Elements/Blog2';
 import OwlCarousel from 'react-owl-carousel';
-import Header2 from '../Common/Header2';
+import Header2 from './../Common/Header2';
 
 const styles = `
   .sectors-container {

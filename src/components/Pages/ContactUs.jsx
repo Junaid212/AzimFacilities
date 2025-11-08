@@ -3,7 +3,7 @@ import Header4 from './../Common/Header4';
 import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 import GoogleMapReact from 'google-map-react';
-import Header2 from '../Common/Header2';
+import Header2 from './../Common/Header2';
 
 var bnrimg = require('./../../images/banner/9.jpg');
 
