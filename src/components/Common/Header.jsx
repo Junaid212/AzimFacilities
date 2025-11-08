@@ -129,14 +129,14 @@ class Header extends React.Component {
                                                             </div>
                                                         </div>
                                                         <div className="full-social-bg">
-                                                            <ul>
+                                                            {/* <ul>
                                                                 <li><a href="https://www.facebook.com" target="_blank"><i className="fa fa-facebook" /></a></li>
                                                                 <li><a href="https://www.instagram.com" target="_blank"><i className="fa fa-instagram" /></a></li>
                                                                 <li><a href="https://twitter.com" target="_blank"><i className="fa fa-twitter" /></a></li>
                                                                 <li><a href="https://www.google.com" target="_blank"><i className="fa fa-google" /></a></li>
                                                                 <li><a href="https://www.tumblr.com" target="_blank" className="tumblr"><i className="fa fa-tumblr" /></a></li>
                                                                 <li><a href="https://www.youtube.com" target="_blank" className="youtube"><i className="fa fa-youtube" /></a></li>
-                                                            </ul>
+                                                            </ul> */}
                                                         </div>
                                                     </div>
                                                 </div>

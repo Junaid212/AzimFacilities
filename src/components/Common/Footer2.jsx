@@ -25,12 +25,12 @@ class Footer2 extends React.Component {
                                             </NavLink>
                                         </div>
                                         <p>7X Theme is a html template for interior and architecture purpose. Today we can tell you, thanks to your passion.</p>
-                                        <ul className="social-icons  sx-social-links">
-                                            <li><a href="https://www.behance.net/" className="fa fa-behance" target="_blank"></a></li>
+                                        {/* <ul className="social-icons  sx-social-links">
+                                            <li><a href="https://www.behance.net/" className="fa fa-behance" target="_blank" ></a></li>
                                             <li><a href="https://www.facebook.com" className="fa fa-facebook" target="_blank"></a></li>
                                             <li><a href="https://twitter.com" className="fa fa-twitter" target="_blank"></a></li>
                                             <li><a href="https://www.instagram.com" className="fa fa-instagram" target="_blank"></a></li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                                 {/* RESENT POST */}

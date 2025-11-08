@@ -71,12 +71,12 @@ class Header3 extends React.Component {
                                         </NavLink>
                                     </div>
                                     <div className="extra-cell">
-                                        <ul className="list-unstyled social-bx text-black d-flex flex-wrap align-content-center">
+                                        {/* <ul className="list-unstyled social-bx text-black d-flex flex-wrap align-content-center">
                                             <li><a href="https://www.facebook.com" target="_blank"><i className="fa fa-facebook" /></a></li>
                                             <li><a href="https://www.instagram.com" target="_blank"><i className="fa fa-instagram" /></a></li>
                                             <li><a href="https://twitter.com" target="_blank"><i className="fa fa-twitter" /></a></li>
                                             <li><a href="https://www.google.com" target="_blank"><i className="fa fa-google" /></a></li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                                 {/* EXTRA Nav */}

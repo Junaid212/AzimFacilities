@@ -63,10 +63,10 @@ class Team2 extends React.Component {
                                                         <h4 className="sx-team-name"><NavLink to={"/team-single"} className="sx-text-white">{item.membername}</NavLink></h4>
                                                         <span className="sx-team-position text-white">{item.position}</span>
                                                         <p>
-                                                        <a href="https://www.facebook.com" target="_blank"><i className="fa fa-facebook" /></a>
+                                                        {/* <a href="https://www.facebook.com" target="_blank" ><i className="fa fa-facebook" /></a>
                                                         <a href="https://www.twitter.com" target="_blank"> <i className="fa fa-twitter" /></a>
                                                         <a href="https://www.instagram.com" target="_blank"> <i className="fa fa-instagram" /></a>
-                                                        <a href="https://in.linkedin.com" target="_blank"> <i className="fa fa-linkedin" /></a>
+                                                        <a href="https://in.linkedin.com" target="_blank"> <i className="fa fa-linkedin" /></a> */}
                                                         </p>
                                                     </div>
                                                 </div>
