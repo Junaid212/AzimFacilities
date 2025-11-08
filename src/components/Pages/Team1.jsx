@@ -84,7 +84,7 @@ class Team1 extends React.Component {
                                                     </div> */}
                                                 </div>
                                                 <div className="figcaption text-black">
-                                                    <h4 className="m-t0"><NavLink to={"/team-single"}>{item.membername}</NavLink></h4>
+                                                    <h4 className="m-t0"><NavLink to="/team-single">{item.membername}</NavLink></h4>
                                                     {/* <span>{item.position}</span> */}
                                                 </div>
                                             </div>
