@@ -6,6 +6,7 @@ import WhatWeDo6 from './../Elements/WhatWeDo6';
 import Services6 from './../Elements/Services6';
 import Services7 from './../Elements/Services7';
 import ClientsLogo2 from './../Elements/ClientsLogo2';
+import Header2 from '../Common/Header2';
 
 var bnrimg = require('./../../images/banner/6.jpg');
 
@@ -13,7 +14,7 @@ class Service1 extends React.Component {
     render() {
         return (
             <>
-                <Header4 />
+                <Header2 />
                 <div className="page-content">
                     <Banner title="We are a Group of companies" pagename="Services" description="Empowering Growth, Uniting Excellence to Shape Tomorrow's Success AZIM Group is a constellation of enterprises at the heart of Qatar's dynamic business landscape. With seven unique companies under our banner, we orchestrate services to deliver unmatched value across diverse industries" bgimage={bnrimg}/>
                     {/* <WhatWeDo6 /> */}

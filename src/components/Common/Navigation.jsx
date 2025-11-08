@@ -57,12 +57,12 @@ class Navigation extends React.Component {
                         </ul>
                     </li>
                     <li>
-                        <NavLink to={""}>Sector</NavLink>
+                        <NavLink to={"/shop-list"}>Sector</NavLink>
                         <ul className="sub-menu">
-                            <li><NavLink to={""}>Residential</NavLink></li>
-                            <li><NavLink to={""}>Government</NavLink></li>
-                            <li><NavLink to={"/project-carousel"}>Real Estate</NavLink></li>
-                            <li><NavLink to={""}>Education</NavLink></li>
+                            <li><NavLink to={"/residential-sector"}>Residential</NavLink></li>
+                            <li><NavLink to={"/government-sector"}>Government</NavLink></li>
+                            <li><NavLink to={"/real-estate-sector"}>Real Estate</NavLink></li>
+                            <li><NavLink to={"/education-sector"}>Education</NavLink></li>
                         </ul>
                     </li>
                     {/* <li>

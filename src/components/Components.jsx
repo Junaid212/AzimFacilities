@@ -56,6 +56,10 @@ import ShopCheckout from './Pages/ShopCheckout';
 import Faq from './Pages/Faq';
 import ContactUs from './Pages/ContactUs';
 import ScrollToTop from './Common/ScrollToTop';
+import Government from './Pages/Government';
+import Residential from './Pages/Residential';
+import RealEstate from './Pages/RealEstate';
+import Education from './Pages/Education';
 
 class Components extends React.Component {
     render() {
@@ -119,6 +123,11 @@ class Components extends React.Component {
 
                             <Route path='/faq' element={<Faq/>} />
                             <Route path='/contact-us' element={<ContactUs/>} />
+
+                            <Route path='/residential-sector' element={<Residential/>} />
+                            <Route path='/government-sector' element={<Government/>} />
+                            <Route path='/real-estate-sector' element={<RealEstate/>} />
+                            <Route path='/education-sector' element={<Education/>} />
                             
                             <Route element={<Error/>} />
                         </Routes>

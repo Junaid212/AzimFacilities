@@ -10,16 +10,16 @@ const services = [
         title: 'Interior Work Avroko',
         description: 'Many of our projects cannot be featured in this section due to the Security levels of the space.'
     },
-    {
-        image: require('./../../images/gallery/pic2.jpg'),
-        title: 'Interior Work Avroko',
-        description: 'Many of our projects cannot be featured in this section due to the Security levels of the space.'
-    },
-    {
-        image: require('./../../images/gallery/pic3.jpg'),
-        title: 'Interior Work Avroko',
-        description: 'Many of our projects cannot be featured in this section due to the Security levels of the space.'
-    }
+    // {
+    //     image: require('./../../images/gallery/pic2.jpg'),
+    //     title: 'Interior Work Avroko',
+    //     description: 'Many of our projects cannot be featured in this section due to the Security levels of the space.'
+    // },
+    // {
+    //     image: require('./../../images/gallery/pic3.jpg'),
+    //     title: 'Interior Work Avroko',
+    //     description: 'Many of our projects cannot be featured in this section due to the Security levels of the space.'
+    // }
 ]
 
 var bgimg1 = require('./../../images/background/cross-line2.png');
@@ -55,13 +55,13 @@ class SimilarProjects extends React.Component {
                     <div className="container">
                         <div className="section-content">
                             {/* TITLE START */}
-                            <div className="section-head">
+                            {/* <div className="section-head">
                                 <div className={`${this.props.alignment} sx-separator-outer`}>
                                     <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(' + bgimg1 + ')' }}>
                                         <h3 className="sep-line-one">{this.props.title}</h3>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* TITLE END */}
                             <div className="work-carousel-outer">
                                 <OwlCarousel className="owl-carousel mfp-gallery project-carousel project-carousel1 owl-btn-vertical-center" {...options}>
