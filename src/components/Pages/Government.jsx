@@ -4,7 +4,7 @@ import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 import SimilarProjects from '../Elements/SimilarProjects';
 import Achievements1 from '../Elements/Achievements1';
-import Header2 from './../Common/Header2';
+import Header2 from '../Common/Header2';
 import { NavLink } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -100,7 +100,7 @@ class Government extends React.Component {
         };
         return (
             <>
-                <Header2 />
+                <Header4 />
                 <div className="page-content">
                     <Banner title="Government Sector" pagename="Government" description="Azim FMS delivers efficient, cost-effective, and sustainable Facility Management solutions for the government sector." bgimage={bnrimg} />
                     {/* ABOUT TEAM MEMBER SECTION START */}

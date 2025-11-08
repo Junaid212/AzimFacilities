@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import Header4 from './../Common/Header4';
 import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
-import Header2 from './../Common/Header2';
 
 var bnrimg = require('./../../images/banner/10.jpg');
 var bgimg1 = require('./../../images/background/cross-line2.png');
@@ -32,7 +31,7 @@ class BlogSingle extends React.Component {
     render() {
         return (
             <>
-                <Header2 />
+                <Header4 />
                 <div className="page-content ">
                     <Banner title="Golden Vision Cleaning and Hospitality Services" pagename="Cleaning and Hospitality Services" description="Where cleanliness meets a warm welcome — your comfort is our commitment." bgimage={bnrimg}/>
                     {/* SECTION CONTENT START */}

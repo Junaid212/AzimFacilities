@@ -3,7 +3,7 @@ import Header4 from './../Common/Header4';
 import Footer2 from './../Common/Footer2';
 import Slider5 from './../Elements/Slider5';
 import About4 from './../Elements/About4';
-import Header2 from './../Common/Header2';
+import Header2 from '../Common/Header2';
 import Banner from '../Elements/Banner';
 import WhatWeDo3 from '../Elements/WhatWeDo3';
 var bnrimg = require('./../../images/banner/2.jpg');
@@ -12,7 +12,7 @@ class Home5 extends React.Component {
     render() {
         return (
             <>
-                <Header2 />
+                <Header4 />
                 <div className="page-content">
                     <Banner title="One Way Limousine WLL" pagename="One Way Limousine" description="Elevate every journey with our premium limousine rentals — your destination, our elegance." bgimage={bnrimg} />
                     {/* <Slider5 /> */}

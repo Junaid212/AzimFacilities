@@ -4,7 +4,7 @@ import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 import SimilarProjects from '../Elements/SimilarProjects';
 import Achievements1 from '../Elements/Achievements1';
-import Header2 from './../Common/Header2';
+import Header2 from '../Common/Header2';
 import { NavLink } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -82,7 +82,7 @@ class Education extends React.Component {
         };
         return (
             <>
-                <Header2 />
+                <Header4 />
                 <div className="page-content">
                     <Banner title="Education Sector" pagename="Education" description="Azim FMS provides tailored solutions for the education sector, creating safe, efficient, and inspiring learning environments." bgimage={bnrimg} />
                     {/* ABOUT TEAM MEMBER SECTION START */}

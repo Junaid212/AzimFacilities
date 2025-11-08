@@ -4,7 +4,7 @@ import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 import SimilarProjects from '../Elements/SimilarProjects';
 import Achievements1 from '../Elements/Achievements1';
-import Header2 from './../Common/Header2';
+import Header2 from '../Common/Header2';
 import { NavLink } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -120,7 +120,7 @@ class Residential extends React.Component {
         };
         return (
             <>
-                <Header2 />
+                <Header4 />
                 <div className="page-content">
                     <Banner title="Residential Sector" pagename="Residential" description="Azim FMS ensures efficient Facility Management for Residential Communities, promoting smooth operations and quality living." bgimage={bnrimg} />
                     {/* ABOUT TEAM MEMBER SECTION START */}
@@ -144,7 +144,7 @@ class Residential extends React.Component {
                                                                     <div className="sx-info  p-t20 text-white">
                                                                         <h4 className="sx-tilte m-t0"><NavLink to={"/project-detail1"}>{item.title}</NavLink></h4>
                                                                         <p>{item.description}</p>
-                                                                        <NavLink to={"/project-detail1"} className="site-button btn-half button-sm"><span>View All</span></NavLink>
+                                                                        {/* <NavLink to={"/project-detail1"} className="site-button btn-half button-sm"><span>View All</span></NavLink> */}
                                                                     </div>
                                                                 </div>
                                                             </div>

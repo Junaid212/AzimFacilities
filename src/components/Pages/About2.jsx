@@ -41,7 +41,7 @@ class Home4 extends React.Component {
     render() {
         return (
             <>
-                <Header2 />
+                <Header4 />
                 <div className="page-content">
                     <Banner title="About Us" pagename="About" description="Empowering Growth, Uniting Excellence to Shape Tomorrow's Success" bgimage={bnrimg}/>
                     {/* <About3 bgcolor="bg-gray" /> */}

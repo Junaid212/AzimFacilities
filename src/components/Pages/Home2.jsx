@@ -1,5 +1,5 @@
 import React from 'react';
-import Header2 from './../Common/Header2';
+import Header2 from '../Common/Header2';
 import Footer2 from '../Common/Footer2';
 import Slider2 from './../Elements/Slider2';
 import About2 from './../Elements/About2';
@@ -10,6 +10,7 @@ import Services2 from './../Elements/Services2';
 import Blog1 from './../Elements/Blog1';
 import Statistics1 from './../Elements/Statistics1';
 import Testimonials2 from './../Elements/Testimonials2';
+import Header4 from './../Common/Header4';
 
 class Home2 extends React.Component {
     componentDidMount() {
@@ -35,7 +36,7 @@ class Home2 extends React.Component {
     render() {
         return (
             <>
-                <Header2 />
+                <Header4 />
                 <div className="page-content">
                     <Slider2 />
                     <About2 />

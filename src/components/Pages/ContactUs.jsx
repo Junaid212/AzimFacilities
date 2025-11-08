@@ -3,7 +3,6 @@ import Header4 from './../Common/Header4';
 import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 import GoogleMapReact from 'google-map-react';
-import Header2 from './../Common/Header2';
 
 var bnrimg = require('./../../images/banner/9.jpg');
 
@@ -20,7 +19,7 @@ class ContactUs extends React.Component {
         };
         return (
             <>
-                <Header2 />
+                <Header4 />
                 <div className="page-content">
                     <Banner title="Contact Us" pagename="Contact us" description=" We’re always here to assist you and provide answers to your questions." bgimage={bnrimg}/>
                     {/* SECTION CONTENTG START */}

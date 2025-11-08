@@ -6,7 +6,6 @@ import Banner from './../Elements/Banner';
 import Projects6 from './../Elements/Projects6';
 import ReactPlayer from 'react-player';
 import Plans1 from '../Elements/Plans1';
-import Header2 from './../Common/Header2';
 
 var bnrimg = require('./../../images/banner/2.jpg');
 var bgimg1 = require('./../../images/video-bg.jpg');
@@ -36,7 +35,7 @@ class ProjectDetail1 extends React.Component {
     render() {
         return (
             <>
-                <Header2 />
+                <Header4 />
                 <div className="page-content">
                     <Banner title="AZIM Facilities Management & services" pagename="AZIM Facilities" description="Crafting Elevated Experiences: Where Excellence Meets Service. Your space, our commitment." bgimage={bnrimg} />
 

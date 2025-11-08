@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import Header4 from './../Common/Header4';
 import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
-import Header2 from './../Common/Header2';
 
 var bnrimg = require('./../../images/banner/8.jpg');
 
@@ -11,7 +10,7 @@ class Error extends React.Component {
     render() {
         return (
             <>
-                <Header2 />
+                <Header4 />
                 <div className="page-content">
                     <Banner title="Vadakara To Kasargod Restaurant" pagename="Restaurant" description="A culinary experience that embodies true authenticity." bgimage={bnrimg}/>
                     {/* SECTION CONTENTG START */}
