@@ -1,11 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Header4 from './../Common/Header4';
+// import Header4 from './../Common/Header4';
 import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
-import ShopSidebar from '../Elements/ShopSidebar';
-import Blog2 from '../Elements/Blog2';
-import OwlCarousel from 'react-owl-carousel';
+import Header2 from '../Common/Header2';
+// import ShopSidebar from '../Elements/ShopSidebar';
+// import Blog2 from '../Elements/Blog2';
+// import OwlCarousel from 'react-owl-carousel';
 
 const styles = `
   .sectors-container {
@@ -162,7 +163,7 @@ class ShopList extends React.Component {
     
     return (
       <>
-        <Header4 />
+        <Header2 />
         <div className="page-content">
           <Banner title="Shop list Style" pagename="Shop List Style" description="The essence of interior design will always be about people and how they live. It is about the realities of what makes for an attractive, civilized." bgimage={bnrimg} />
           

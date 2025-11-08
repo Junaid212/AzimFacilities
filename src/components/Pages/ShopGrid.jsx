@@ -1,10 +1,11 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import Header4 from './../Common/Header4';
+// import { NavLink } from 'react-router-dom';
+// import Header4 from './../Common/Header4';
 import Footer from '../Common/Footer';
 import Banner from '../Elements/Banner';
-import ShopSidebar from '../Elements/ShopSidebar';
+// import ShopSidebar from '../Elements/ShopSidebar';
 import Team1 from './Team1';
+import Header2 from '../Common/Header2';
 // import Header2 from './../Common/Header2';
 
 const locations = [
@@ -38,7 +39,7 @@ class ShopGrid extends React.Component {
     render() {
         return (
             <>
-                <Header4 />
+                <Header2 />
                 <div className="page-content">
                     <Banner title=" Najila Food Tradings" pagename="Food Trading" description="We bring the world's finest flavors to your table. Experience the art of taste with us." bgimage={bnrimg}/>
                     {/* ABOUT COMPANY SECTION START */}

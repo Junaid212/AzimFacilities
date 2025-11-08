@@ -1,9 +1,9 @@
 import React from 'react';
-import Header4 from './../Common/Header4';
+// import Header4 from './../Common/Header4';
 import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
-import SimilarProjects from '../Elements/SimilarProjects';
-import Achievements1 from '../Elements/Achievements1';
+// import SimilarProjects from '../Elements/SimilarProjects';
+// import Achievements1 from '../Elements/Achievements1';
 import Header2 from '../Common/Header2';
 import { NavLink } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel';
@@ -96,7 +96,7 @@ class RealEstate extends React.Component {
         };
         return (
             <>
-                <Header4 />
+                <Header2 />
                 <div className="page-content">
                     <Banner title="Real Estate sector" pagename="Real Estate" description="Azim FMS provides tailored real estate solutions, enhancing property value, tenant satisfaction, and operational excellence." bgimage={bnrimg} />
                     {/* ABOUT TEAM MEMBER SECTION START */}

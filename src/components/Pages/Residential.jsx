@@ -1,9 +1,9 @@
 import React from 'react';
-import Header4 from './../Common/Header4';
+// import Header4 from './../Common/Header4';
 import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
-import SimilarProjects from '../Elements/SimilarProjects';
-import Achievements1 from '../Elements/Achievements1';
+// import SimilarProjects from '../Elements/SimilarProjects';
+// import Achievements1 from '../Elements/Achievements1';
 import Header2 from '../Common/Header2';
 import { NavLink } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel';
@@ -120,7 +120,7 @@ class Residential extends React.Component {
         };
         return (
             <>
-                <Header4 />
+                <Header2 />
                 <div className="page-content">
                     <Banner title="Residential Sector" pagename="Residential" description="Azim FMS ensures efficient Facility Management for Residential Communities, promoting smooth operations and quality living." bgimage={bnrimg} />
                     {/* ABOUT TEAM MEMBER SECTION START */}
