@@ -1,0 +1,205 @@
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+// import Header4 from './../Common/Header4';
+import Footer from './../Common/Footer';
+import Banner from './../Elements/Banner';
+import Header2 from '../Common/Header2';
+// import ShopSidebar from '../Elements/ShopSidebar';
+// import Blog2 from '../Elements/Blog2';
+// import OwlCarousel from 'react-owl-carousel';
+
+const styles = `
+  .sectors-container {
+    min-height: 100vh;
+    max-width: 1200px;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sectors-wrapper {
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+
+  .sectors-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  @media (min-width: 768px) {
+    .sectors-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .sector-card {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+
+  .sector-image-container {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+  }
+
+  .sector-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: all 500ms ease;
+  }
+
+  .sector-card:hover .sector-image {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+  }
+
+  .sector-label {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    background-color: #E18A2E;
+    padding: 0 1.5rem;
+    transform: translateY(0);
+    transition: all 500ms ease;
+    height: auto;
+    min-height: 60px; /* Fixed height for title only */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .sector-card:hover .sector-label {
+    transform: translateY(-12px);
+    min-height: 120px; /* Expanded height for title + description */
+  }
+
+  .sector-title {
+    color: white;
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.5rem 0;
+    margin: 0;
+    transition: all 300ms ease;
+  }
+
+  .sector-description {
+    color: white;
+    font-size: 1.125rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 500ms ease;
+    margin: 0;
+    transform: translateY(-10px);
+  }
+
+  .sector-card:hover .sector-description {
+    opacity: 1;
+    max-height: 100px;
+    transform: translateY(0);
+  }
+
+  .sector-card:hover .sector-title {
+    padding-bottom: 0.5rem;
+  }
+`;
+
+var bnrimg = require('./../../images/banner/5.jpg');
+
+const sectors = [
+  {
+    id: 1,
+    title: 'Residential Sector',
+    description: 'Azim FMS provides expert Facility Management for Residential Communities, ensuring seamless operations, superior living, and well-maintained, connected environments.',
+    image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800'
+  },
+  {
+    id: 2,
+    title: 'Goverment Sector',
+    description: 'Azim FMS ensures efficient Facility Management for Residential Communities, promoting smooth operations and quality living.',
+    image: 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=800'
+  },
+  {
+    id: 3,
+    title: 'Real Estate Sector',
+    description: 'Azim FMS delivers efficient, cost-effective, and sustainable Facility Management solutions for the government sector.',
+    image: 'https://images.pexels.com/photos/2747901/pexels-photo-2747901.jpeg?auto=compress&cs=tinysrgb&w=800'
+  },
+  {
+    id: 4,
+    title: 'Education Sector',
+    description: 'Azim FMS provides tailored real estate solutions, enhancing property value, tenant satisfaction, and operational excellence.',
+    image: 'https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=800'
+  }
+];
+
+class ShopList extends React.Component {
+  render() {
+    const options = {
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      margin: 30,
+      nav: true,
+      navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+      items: 1,
+      dots: false,
+      animateOut: 'fadeOut',
+    };
+    
+    return (
+      <>
+        <Header2 />
+        <div className="page-content">
+          <Banner title="Shop list Style" pagename="Shop List Style" description="The essence of interior design will always be about people and how they live. It is about the realities of what makes for an attractive, civilized." bgimage={bnrimg} />
+          
+          {/* SHOP SECTION START */}
+          <style>{styles}</style>
+          <div className="sectors-container">
+            <div className="sectors-wrapper">
+              <div className="sectors-grid">
+                {sectors.map((sector) => (
+                  <div key={sector.id} className="sector-card">
+                    <div className="sector-image-container">
+                      <img
+                        src={sector.image}
+                        alt={sector.title}
+                        className="sector-image"
+                      />
+                    </div>
+                    <div className="sector-label">
+                      <h2 className="sector-title">
+                        {sector.title}
+                      </h2>
+                      <p className="sector-description">
+                        {sector.description}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+          {/* SHOP SECTION END */}
+        </div>
+        <Footer />
+      </>
+    );
+  }
+}
+
+export default ShopList;
