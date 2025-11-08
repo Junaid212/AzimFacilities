@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Header4 from './../Common/Header4';
-import Footer from './../Common/Footer';
-import Banner from './../Elements/Banner';
+// import Header4 from './../Common/Header4';
+// import Footer from './../Common/Footer';
+// import Banner from './../Elements/Banner';
 
 const teamMembers = [
     {
