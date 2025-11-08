@@ -12,7 +12,7 @@ class Home5 extends React.Component {
     render() {
         return (
             <>
-                <Header4 />
+                <Header2 />
                 <div className="page-content">
                     <Banner title="One Way Limousine WLL" pagename="One Way Limousine" description="Elevate every journey with our premium limousine rentals — your destination, our elegance." bgimage={bnrimg} />
                     {/* <Slider5 /> */}

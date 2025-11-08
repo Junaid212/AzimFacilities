@@ -82,7 +82,7 @@ class Education extends React.Component {
         };
         return (
             <>
-                <Header4 />
+                <Header2 />
                 <div className="page-content">
                     <Banner title="Education Sector" pagename="Education" description="Azim FMS provides tailored solutions for the education sector, creating safe, efficient, and inspiring learning environments." bgimage={bnrimg} />
                     {/* ABOUT TEAM MEMBER SECTION START */}

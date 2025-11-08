@@ -72,13 +72,13 @@ class Components extends React.Component {
                             <Route path='/home-2' element={<Home2/>} />
                             <Route path='/home-3' element={<Home3/>} />
                             <Route path='/home-4' element={<Home4/>} />
-                            <Route path='/home-5' element={<Home5/>} />
+                            <Route path='/limousine' element={<Home5/>} />
                             <Route path='/home-6' element={<Home6/>} />
 
-                            <Route path='/about-1' element={<About1/>} />
+                            <Route path='/events' element={<About1/>} />
                             <Route path='/about' element={<About2/>} />
 
-                            <Route path='/services-1' element={<Services1/>} />
+                            <Route path='/services' element={<Services1/>} />
                             <Route path='/services-2' element={<Services2/>} />
                             <Route path='/services-detail' element={<ServiceDetail/>} />
 
@@ -88,7 +88,7 @@ class Components extends React.Component {
 
                             <Route path='/our-history' element={<OurHistory/>} />
                             <Route path='/icon-font' element={<FontIcons/>} />
-                            <Route path='/error-404' element={<Error/>} />
+                            <Route path='/restaurent' element={<Error/>} />
 
                             <Route path='/project-grid-3-columns' element={<ProjectGrid3/>} />
                             <Route path='/project-grid-3-columns-no-gap' element={<ProjectGridNoGap3/>} />
@@ -105,16 +105,16 @@ class Components extends React.Component {
                             <Route path='/project-masonry-5-columns-no-gap' element={<ProjectMasonaryNoGap5/>} />
 
                             <Route path='/project-carousel' element={<ProjectCorousel/>} />
-                            <Route path='/project-detail1' element={<ProjectDetail1/>} />
+                            <Route path='/facilities-management' element={<ProjectDetail1/>} />
                             <Route path='/project-detail2' element={<ProjectDetail2/>} />
 
                             <Route path='/blog-grid' element={<BlogGrid/>} />
                             <Route path='/blog-listing' element={<BlogListing/>} />
                             <Route path='/blog-masonry' element={<BlogMasonary/>} />
-                            <Route path='/blog-single' element={<BlogSingle/>} />
+                            <Route path='/cleaning-and-hospitality' element={<BlogSingle/>} />
                             <Route path='/post-right-sidebar' element={<PostRightSidebar/>} />
 
-                            <Route path='/shop-grid' element={<ShopGrid/>} />
+                            <Route path='/food-tradng' element={<ShopGrid/>} />
                             <Route path='/shop-list' element={<ShopList/>} />
                             <Route path='/shop-detail' element={<ShopDetail/>} />
                             <Route path='/shop-account' element={<ShopAccount/>} />

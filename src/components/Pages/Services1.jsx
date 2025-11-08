@@ -22,7 +22,7 @@ class Service1 extends React.Component {
                     {/* <Services6 /> */}
                     <Services7 />
                     <WhatWeDo6 />
-                    <ClientsLogo2 bgcolor="bg-gray" />
+                    {/* <ClientsLogo2 bgcolor="bg-gray" /> */}
                 </div>
                 <Footer />
             </>

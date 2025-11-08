@@ -100,7 +100,7 @@ class Government extends React.Component {
         };
         return (
             <>
-                <Header4 />
+                <Header2 />
                 <div className="page-content">
                     <Banner title="Government Sector" pagename="Government" description="Azim FMS delivers efficient, cost-effective, and sustainable Facility Management solutions for the government sector." bgimage={bnrimg} />
                     {/* ABOUT TEAM MEMBER SECTION START */}

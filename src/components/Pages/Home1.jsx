@@ -14,6 +14,7 @@ import Statistics1 from '../Elements/Statistics1';
 import Services2 from '../Elements/Services2';
 import About3 from './../Elements/About3';
 import Header4 from './../Common/Header4';
+import Header2 from '../Common/Header2';
 
 var bgimg1 = require('./../../images/background/cross-line2.png');
 
@@ -22,7 +23,7 @@ class Home1 extends React.Component {
     render() {
         return (
             <>
-                <Header4 />
+                <Header2 />
                 <div className="page-content">
                     {/* SLIDER START */}
                     <Slider4 />
