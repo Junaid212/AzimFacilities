@@ -9,6 +9,7 @@ import Home6 from './Pages/Home6';
 
 import About1 from './Pages/About1';
 import About2 from './Pages/About2';
+import Home7 from './Pages/Home7';
 
 import Services1 from './Pages/Services1';
 import Services2 from './Pages/Services2';
@@ -68,7 +69,8 @@ class Components extends React.Component {
                 <ScrollToTop />
                 <div className="page-wraper">
                         <Routes>
-                            <Route path='/' element={<Home1/>} />
+                            {/* <Route   exact path='/' element={<Home1/>} /> */}
+                            <Route   exact path='' element={<Home7/>} />
                             <Route path='/home-2' element={<Home2/>} />
                             <Route path='/home-3' element={<Home3/>} />
                             <Route path='/home-4' element={<Home4/>} />
