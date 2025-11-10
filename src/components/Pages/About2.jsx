@@ -11,7 +11,6 @@ import { NavLink } from 'react-router-dom';
 import Blog2 from '../Elements/Blog2';
 import Services3 from '../Elements/Services3';
 import Header2 from '../Common/Header2';
-import Slider4 from '../Elements/Slider4';
 // import Header2 from './../Common/Header2';
 
 var bnrimg = require('./../../images/azim/13.png');
@@ -44,7 +43,6 @@ class Home4 extends React.Component {
         return (
             <>
                 <Header2 />
-         <Slider4/>
                 <div className="page-content">
                     <Banner title="About Us" pagename="About" description="Empowering Growth, Uniting Excellence to Shape Tomorrow's Success" bgimage={bnrimg}/>
                     {/* <About3 bgcolor="bg-gray" /> */}

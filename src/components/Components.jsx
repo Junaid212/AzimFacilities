@@ -65,7 +65,7 @@ import Education from './Pages/Education';
 class Components extends React.Component {
     render() {
         return (
-            <BrowserRouter basename="/AzimFacilities">
+            <BrowserRouter basename="/AzimFacilities/">
                 <ScrollToTop />
                 <div className="page-wraper">
                         <Routes>
