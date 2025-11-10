@@ -1,12 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-// import Header4 from './../Common/Header4';
 import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 import Header2 from '../Common/Header2';
-// import ShopSidebar from '../Elements/ShopSidebar';
-// import Blog2 from '../Elements/Blog2';
-// import OwlCarousel from 'react-owl-carousel';
 
 const styles = `
   .sectors-container {
@@ -73,7 +69,7 @@ const styles = `
     transform: translateY(0);
     transition: all 500ms ease;
     height: auto;
-    min-height: 60px; /* Fixed height for title only */
+    min-height: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,7 +77,7 @@ const styles = `
 
   .sector-card:hover .sector-label {
     transform: translateY(-12px);
-    min-height: 120px; /* Expanded height for title + description */
+    min-height: 120px;
   }
 
   .sector-title {
@@ -92,6 +88,30 @@ const styles = `
     padding: 0.5rem 0;
     margin: 0;
     transition: all 300ms ease;
+    text-decoration: none;
+  }
+  .sector-title:hover {
+    color: black;
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.5rem 0;
+    margin: 0;
+    transition: all 300ms ease;
+    text-decoration: none;
+  }
+
+  .sector-title-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sector-title-link:hover {
+    color: white;
+    text-decoration: none;
   }
 
   .sector-description {
@@ -129,25 +149,29 @@ const sectors = [
     id: 1,
     title: 'Residential Sector',
     description: 'Azim FMS provides expert Facility Management for Residential Communities, ensuring seamless operations, superior living, and well-maintained, connected environments.',
-    image: img1
+    image: img1,
+    link: '/residential-sector' // Add your desired route here
   },
   {
     id: 2,
-    title: 'Goverment Sector',
+    title: 'Government Sector',
     description: 'Azim FMS ensures efficient Facility Management for Residential Communities, promoting smooth operations and quality living.',
-    image: img2
+    image: img2,
+    link: '/government-sector' // Add your desired route here
   },
   {
     id: 3,
     title: 'Real Estate Sector',
     description: 'Azim FMS delivers efficient, cost-effective, and sustainable Facility Management solutions for the government sector.',
-    image: img3
+    image: img3,
+    link: '/real-estate-sector' // Add your desired route here
   },
   {
     id: 4,
     title: 'Education Sector',
     description: 'Azim FMS provides tailored real estate solutions, enhancing property value, tenant satisfaction, and operational excellence.',
-    image: img4
+    image: img4,
+    link: '/education-sector' // Add your desired route here
   }
 ];
 
@@ -186,9 +210,11 @@ class ShopList extends React.Component {
                       />
                     </div>
                     <div className="sector-label">
-                      <h2 className="sector-title">
-                        {sector.title}
-                      </h2>
+                      <NavLink to={sector.link} className="sector-title-link">
+                        <h2 className="sector-title">
+                          {sector.title}
+                        </h2>
+                      </NavLink>
                       <p className="sector-description">
                         {sector.description}
                       </p>

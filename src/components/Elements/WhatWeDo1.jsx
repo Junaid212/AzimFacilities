@@ -25,7 +25,7 @@ class WhatWeDo1 extends React.Component {
                             <div className="row number-block-one-outer justify-content-center">
                                 <div className="col-lg-3 col-md-6 col-sm-6 m-b30">
                                     <div className="number-block-one animate-in-to-top">
-                                        <img src={require('./../../images/pic1.jpg')} alt="" />
+                                        <img src={require('./../../images/azim/24.png')} alt="" />
                                         <div className="figcaption bg-white text-center p-a20">
                                             <h4 className="m-a0">Diverse Portfolio</h4>
                                             <p>Azim Group boasts a diverse, multi-industry portfolio</p>
