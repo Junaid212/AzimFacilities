@@ -2569,7 +2569,7 @@ ol.list-num-count.list-outline-none>li:before {
 }
 
 .opacity-07 {
-	opacity: 0.7;
+	/* opacity: 0.7; */
 }
 
 .opacity-08 {
