@@ -5,7 +5,7 @@ import Banner from './../Elements/Banner';
 import GoogleMapReact from 'google-map-react';
 import Header2 from '../Common/Header2';
 
-var bnrimg = require('./../../images/banner/9.jpg');
+var bnrimg = require('./../../images/azim/23.png');
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 

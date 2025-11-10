@@ -5,7 +5,7 @@ import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 import Header2 from '../Common/Header2';
 
-var bnrimg = require('./../../images/banner/8.jpg');
+var bnrimg = require('./../../images/azim/23.png');
 
 class Error extends React.Component {
     render() {
@@ -20,7 +20,7 @@ class Error extends React.Component {
                             <div className="section-content">
                                 <div className="page-notfound row">
                                     <div className="col-md-7">
-                                        <img src={require('./../../images/error-404.png')} alt="" />
+                                        <img src={require('./../../images/azim/50.png')} alt="" />
                                     </div>
                                     <div className="col-md-5">
                                         <strong>Welcome To Our Restaurant</strong>

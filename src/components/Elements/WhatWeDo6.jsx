@@ -25,7 +25,7 @@ class WhatWeDo6 extends React.Component {
                             <div className="row number-block-one-outer justify-content-center">
                                 <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
                                     <div className="number-block-one animate-in-to-top">
-                                        <img src={require('./../../images/pic1.jpg')} alt="" />
+                                        <img src={require('./../../images/azim/24.png')} alt="" />
                                         <div className="figcaption bg-white text-center p-a20">
                                             <h4 className="m-a0">Dynamic Growth</h4>
                                             <p>Azim Group’s journey reflects dynamic growth, resilience, and adaptability across industries.</p>
@@ -37,7 +37,7 @@ class WhatWeDo6 extends React.Component {
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
                                     <div className="number-block-one animate-in-to-top">
-                                        <img src={require('./../../images/pic2.jpg')} alt="" />
+                                        <img src={require('./../../images/azim/25.png')} alt="" />
                                         <div className="figcaption bg-white text-center p-a20">
                                             <h4 className="m-a0">Adaptable Approach</h4>
                                             <p>Azim Group’s success stems from its adaptability, agility, and foresight—positioning it as a dynamic, future-ready force.</p>
@@ -49,7 +49,7 @@ class WhatWeDo6 extends React.Component {
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
                                     <div className="number-block-one animate-in-to-top">
-                                        <img src={require('./../../images/pic3.jpg')} alt="" />
+                                        <img src={require('./../../images/azim/26.png')} alt="" />
                                         <div className="figcaption bg-white text-center p-a20">
                                             <h4 className="m-a0">Innovative Solutions</h4>
                                             <p>Renowned for its pioneering spirit, Azim Group drives innovation, sets industry standards, and shapes the future of excellence.</p>

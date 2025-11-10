@@ -5,17 +5,17 @@ const services = [
     {
         count: '01',
         title: 'Pick and Drop Services',
-        image: require('./../../images/services/service-projects/1.jpg'),
+        image: require('./../../images/azim/33.png'),
     },
     {
         count: '02',
         title: 'Punctuality and Safety',
-        image: require('./../../images/services/service-projects/2.jpg'),
+        image: require('./../../images/azim/34.png'),
     },
     {
         count: '03',
         title: 'Hospitable Chauffeurs',
-        image: require('./../../images/services/service-projects/3.jpg'),
+        image: require('./../../images/azim/35.png'),
     },
     // {
     //     count: '04',

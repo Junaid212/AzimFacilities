@@ -12,7 +12,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 const services = [
     {
-        image: require('./../../images/gallery/pic1.jpg'),
+        image: require('./../../images/azim/52.png'),
         title: 'Government Sector',
         description: 'Azim Facilities Management Services provides specialized Facility Management solutions for the government sector, ensuring efficient operations, cost-effectiveness, and sustainable facility performance.'
     },
@@ -71,7 +71,7 @@ const achievements2 = [
 
 var bgimg1 = require('./../../images/background/bg-map.png');
 var bgimg2 = require('./../../images/background/cross-line2.png');
-var bnrimg = require('./../../images/banner/1.jpg');
+var bnrimg = require('./../../images/azim/23.png');
 
 class Government extends React.Component {
     render() {

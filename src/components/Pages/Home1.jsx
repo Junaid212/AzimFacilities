@@ -1,7 +1,6 @@
 import React from 'react';
 // import Header2 from './../Common/Header2';
 import Footer from './../Common/Footer';
-import Slider4 from './../Elements/Slider4';
 import About1 from './../Elements/About1';
 import WhatWeDo1 from './../Elements/WhatWeDo1';
 import Testimonials1 from './../Elements/Testimonials1';
@@ -15,6 +14,9 @@ import Services2 from '../Elements/Services2';
 import About3 from './../Elements/About3';
 import Header4 from './../Common/Header4';
 import Header2 from '../Common/Header2';
+import Slider3 from '../Elements/Slider3';
+import Slider4 from './../Elements/Slider4';
+
 
 var bgimg1 = require('./../../images/background/cross-line2.png');
 
@@ -26,7 +28,8 @@ class Home1 extends React.Component {
                 <Header2 />
                 <div className="page-content">
                     {/* SLIDER START */}
-                    <Slider4 />
+                    {/* <Slider3/> */}
+                    <Slider4/>
                     <About2/>
                     <About3 bgcolor="bg-white"/>
                     {/* <WhatWeDo3 /> */}

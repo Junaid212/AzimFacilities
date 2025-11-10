@@ -115,7 +115,7 @@ class Components extends React.Component {
                             <Route path='/post-right-sidebar' element={<PostRightSidebar/>} />
 
                             <Route path='/food-tradng' element={<ShopGrid/>} />
-                            <Route path='/shop-list' element={<ShopList/>} />
+                            <Route path='/sector' element={<ShopList/>} />
                             <Route path='/shop-detail' element={<ShopDetail/>} />
                             <Route path='/shop-account' element={<ShopAccount/>} />
                             <Route path='/shop-cart' element={<ShopCart/>} />

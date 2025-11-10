@@ -12,7 +12,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 const services = [
     {
-        image: require('./../../images/gallery/pic1.jpg'),
+        image: require('./../../images/azim/53.png'),
         title: 'Real Estate Sector',
         description: 'Azim Facilities Management Services delivers tailored solutions for the dynamic real estate sector, focusing on property value, tenant satisfaction, and operational excellence to ensure assets reach their full potential.'
     }
@@ -67,7 +67,7 @@ const achievements2 = [
 
 var bgimg1 = require('./../../images/background/bg-map.png');
 var bgimg2 = require('./../../images/background/cross-line2.png');
-var bnrimg = require('./../../images/banner/1.jpg');
+var bnrimg = require('./../../images/azim/23.png');
 
 class RealEstate extends React.Component {
     render() {

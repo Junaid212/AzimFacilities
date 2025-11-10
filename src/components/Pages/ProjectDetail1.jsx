@@ -8,8 +8,8 @@ import ReactPlayer from 'react-player';
 import Plans1 from '../Elements/Plans1';
 import Header2 from '../Common/Header2';
 
-var bnrimg = require('./../../images/banner/2.jpg');
-var bgimg1 = require('./../../images/video-bg.jpg');
+var bnrimg = require('./../../images/azim/23.png');
+var bgimg1 = require('./../../images/azim/27.png');
 
 class ProjectDetail1 extends React.Component {
     
@@ -101,7 +101,7 @@ class ProjectDetail1 extends React.Component {
                                                 <div className="section-content">
                                                     <div className="page-notfound row">
                                                         <div className="col-md-7">
-                                                            <img src={require('./../../images/error-404.png')} alt="" />
+                                                            <img src={require('./../../images/azim/31.png')} alt="" />
                                                         </div>
                                                         <div className="col-md-5">
                                                             {/* <strong>Page Not Found</strong> */}

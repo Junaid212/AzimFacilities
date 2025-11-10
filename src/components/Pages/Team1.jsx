@@ -6,42 +6,42 @@ import { NavLink } from 'react-router-dom';
 
 const teamMembers = [
     {
-        image: require('./../../images/our-team5/1.jpg'),
+        image: require('./../../images/azim/38.png'),
         membername: 'Fresh Vegetables & Fruits',
         position: 'Architect'
     },
     {
-        image: require('./../../images/our-team5/2.jpg'),
+        image: require('./../../images/azim/39.png'),
         membername: 'Rice, Cereals & Pulses',
         position: 'Architect'
     },
     {
-        image: require('./../../images/our-team5/3.jpg'),
+        image: require('./../../images/azim/40.png'),
         membername: 'Canned food, Sauces',
         position: 'Finances'
     },
     {
-        image: require('./../../images/our-team5/4.jpg'),
+        image: require('./../../images/azim/41.png'),
         membername: 'Packed instant food items',
         position: 'Finances'
     },
     {
-        image: require('./../../images/our-team5/5.jpg'),
+        image: require('./../../images/azim/42.png'),
         membername: 'Oils, Spices',
         position: 'Architect'
     },
     {
-        image: require('./../../images/our-team5/6.jpg'),
+        image: require('./../../images/azim/43.png'),
         membername: 'Beverages',
         position: 'Architect'
     },
     {
-        image: require('./../../images/our-team5/7.jpg'),
+        image: require('./../../images/azim/44.png'),
         membername: 'Frozen food',
         position: 'Finances'
     },
     {
-        image: require('./../../images/our-team5/8.jpg'),
+        image: require('./../../images/azim/45.png'),
         membername: 'Bakery & Snacks',
         position: 'Finances'
     }

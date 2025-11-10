@@ -9,7 +9,7 @@ import ClientsLogo2 from './../Elements/ClientsLogo2';
 import Header2 from '../Common/Header2';
 // import Header2 from './../Common/Header2';
 
-var bnrimg = require('./../../images/banner/6.jpg');
+var bnrimg = require('./../../images/azim/23.png');
 
 class Service1 extends React.Component {
     render() {
