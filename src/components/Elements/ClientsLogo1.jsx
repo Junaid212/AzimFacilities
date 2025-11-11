@@ -2,42 +2,110 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const logos = [
-    { image: require('./../../images/client-logo/logo1.png') },
-    { image: require('./../../images/client-logo/logo2.png') },
-    { image: require('./../../images/client-logo/logo3.png') },
-    { image: require('./../../images/client-logo/logo4.png') },
-    { image: require('./../../images/client-logo/logo5.png') },
-    { image: require('./../../images/client-logo/logo6.png') },
-    { image: require('./../../images/client-logo/logo7.png') },
-    { image: require('./../../images/client-logo/logo8.png') }
+    { image: require('./../../images/azim/76.png') },
+    { image: require('./../../images/azim/77.png') },
+    { image: require('./../../images/azim/78.png') },
+    { image: require('./../../images/azim/79.png') },
+    { image: require('./../../images/azim/80.png') },
+    { image: require('./../../images/azim/81.png') },
+    { image: require('./../../images/azim/82.png') },
+    { image: require('./../../images/azim/83.png') },
+    { image: require('./../../images/azim/84.png') },
+    { image: require('./../../images/azim/85.png') },
+    { image: require('./../../images/azim/86.png') },
+    { image: require('./../../images/azim/87.png') },
+    { image: require('./../../images/azim/88.png') },
+    { image: require('./../../images/azim/89.png') },
+    { image: require('./../../images/azim/90.png') },
+    { image: require('./../../images/azim/91.png') },
+    { image: require('./../../images/azim/92.png') },
+    { image: require('./../../images/azim/93.png') },
+    { image: require('./../../images/azim/94.png') },
 ]
 
 var bgimg1 = require('./../../images/background/bg-12.jpg');
 var bgimg2 = require('./../../images/background/cross-line2.png');
 
 class ClientsLogo1 extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            currentSlide: 0
+        };
+        this.slidesToShow = 4; // Number of logos to show at once
+        this.totalSlides = Math.ceil(logos.length / this.slidesToShow);
+        this.slideInterval = null;
+    }
+
+    componentDidMount() {
+        this.startAutoSlide();
+    }
+
+    componentWillUnmount() {
+        this.stopAutoSlide();
+    }
+
+    startAutoSlide = () => {
+        this.slideInterval = setInterval(() => {
+            this.setState(prevState => ({
+                currentSlide: (prevState.currentSlide + 1) % this.totalSlides
+            }));
+        }, 2000);
+    }
+
+    stopAutoSlide = () => {
+        if (this.slideInterval) {
+            clearInterval(this.slideInterval);
+        }
+    }
+
     render() {
+        const { currentSlide } = this.state;
 
         return (
             <>
-                <div className="section-full  mobile-page-padding bg-gray  p-t80 p-b10 bg-repeat" style={{ backgroundImage: 'url(' + bgimg1 + ')' }}>
+                <div className="section-full mobile-page-padding  p-t30 p-b30 bg-repeat" >
                     <div className="container">
                         {/* TITLE START */}
-                        <div className="section-head">
+                        {/* <div className="section-head">
                             <div className="sx-separator-outer separator-left">
                                 <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(' + bgimg2 + ')' }}>
                                     <h3 className="sep-line-one">Our Clients</h3>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         {/* TITLE END */}
                         <div className="section-content">
-                            <div className="client-grid m-b40">
-                                <div className="row justify-content-center">
+                            <div className="client-carousel-wrapper">
+                                <div 
+                                    className="client-carousel-track"
+                                    style={{
+                                        transform: `translateX(-${currentSlide * (100 / this.slidesToShow)}%)`,
+                                        transition: 'transform 0.5s ease-in-out',
+                                        display: 'flex',
+                                        width: `${(logos.length / this.slidesToShow) * 20}%`
+                                    }}
+                                >
                                     {logos.map((item, index) => (
-                                        <div className="col-lg-3 col-md-4 col-sm-6 col-6 m-b30" key={index}>
+                                        <div 
+                                            key={index}
+                                            className="client-logo-slide"
+                                            style={{
+                                                flex: `0 0 ${100 / this.slidesToShow}%`,
+                                                padding: '0 10px',
+                                                boxSizing: 'border-box'
+                                            }}
+                                        >
                                             <NavLink to={"/about-1"} className="client-logo-pic">
-                                                <img src={item.image} alt=""/>
+                                                <img 
+                                                    src={item.image} 
+                                                    alt={`Client logo ${index + 1}`}
+                                                    style={{
+                                                        width: '100%',
+                                                        height: 'auto',
+                                                        objectFit: 'contain'
+                                                    }}
+                                                />
                                                 <div>
                                                     <span>View More</span>
                                                 </div>
@@ -49,9 +117,54 @@ class ClientsLogo1 extends React.Component {
                         </div>
                     </div>
                     <div className="hilite-title text-left p-l50 text-uppercase">
-                        <strong>Clients</strong>
+                        {/* <strong>Clients</strong> */}
                     </div>
                 </div>
+
+                <style jsx>{`
+                    .client-carousel-wrapper {
+                        overflow: hidden;
+                        position: relative;
+                        width: 100%;
+                    }
+                    
+                    .client-carousel-track {
+                        display: flex;
+                        will-change: transform;
+                    }
+                    
+                    .client-logo-slide {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    
+                    .client-logo-pic {
+                        display: block;
+                        text-align: center;
+                        position: relative;
+                        overflow: hidden;
+                    }
+                    
+                    .client-logo-pic div {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: rgba(0, 0, 0, 0.7);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        opacity: 0;
+                        transition: opacity 0.3s ease;
+                        color: white;
+                    }
+                    
+                    .client-logo-pic:hover div {
+                        opacity: 1;
+                    }
+                `}</style>
             </>
         );
     }

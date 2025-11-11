@@ -109,13 +109,19 @@ class ProjectDetail1 extends React.Component {
                                                             <span>We provide professional services in plumbing, electrical work, HVAC, landscaping,
                                                                  and security systems. Our skilled technicians ensure reliable solutions tailored
                                                                   to your needs, delivering quality, safety, and efficiency for every projects.</span><br/><br/>
-                                                            <ul style={{marginLeft:'20px'}}>
-                                                            <li><span> Plumbing</span></li>
-                                                            <li><span> Electrical</span></li>
-                                                            <li><span> HVAC</span></li>
-                                                            <li><span> Landscaping</span></li>
-                                                            <li><span> Security systems</span></li>
-                                                            </ul>
+                                                            <ul style={{
+    marginLeft: '20px',
+    textAlign: 'left',   // ✅ ensures text is left-aligned
+    listStylePosition: 'outside', // ✅ keeps bullets outside
+    paddingLeft: '20px', // ✅ consistent indentation
+}}>
+    <li><span>Plumbing</span></li>
+    <li><span>Electrical</span></li>
+    <li><span>HVAC</span></li>
+    <li><span>Landscaping</span></li>
+    <li><span>Security systems</span></li>
+</ul>
+
                                                         </div>
                                                     </div>
                                                 </div>

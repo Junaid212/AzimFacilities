@@ -72,7 +72,7 @@ class Home4 extends React.Component {
                     
                     `}</style>
                                                             <div className="text-left">
-                                                                <NavLink to="/about-1" className="site-button btn-half"><span>Read More</span></NavLink>
+                                                                <NavLink to="/about" className="site-button btn-half"><span>Read More</span></NavLink>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -100,6 +100,7 @@ class Home4 extends React.Component {
                                         </div>
                                     </div>
                     <Blog2 />
+                    <ClientsLogo1 />
                     <Services3 />
                     <div className="section-full mobile-page-padding p-t80 p-b80 bg-gray">
                         <div className="container">
@@ -148,6 +149,7 @@ class Home4 extends React.Component {
                         </div>
                     </div>
                     {/* <WhatWeDo3 /> */}
+                    
                     <Statistics1 />
                     {/* <Team1 /> */}
                     {/* <ClientsLogo1 /> */}

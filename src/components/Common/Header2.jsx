@@ -66,14 +66,39 @@ class Header2 extends React.Component {
                         <div className="main-bar">
                             <div className="container clearfix">
                                 <div className="logo-header">
-                                    <div className="logo-header-inner logo-header-one">
-                                        <NavLink to={"./"}>
-                                            <img src={this.state.logo} alt="Inteshape" style={{height:'54px'}}/>
-                                            
-                                        </NavLink>
-                                    </div>
-                                    
-                                </div>
+    <div
+        className="logo-header-inner logo-header-one"
+        style={{ display: 'flex', alignItems: 'center' }}
+    >
+        <NavLink
+            to={"./"}
+            style={{
+                display: 'flex',
+                alignItems: 'center',
+                textDecoration: 'none',
+                whiteSpace: 'nowrap' // ✅ prevents text wrapping
+            }}
+        >
+            <img
+                src={this.state.logo}
+                alt="Azim Facilities"
+                style={{ height: '54px' }}
+            />
+            <span
+                style={{
+                    marginLeft: '10px',
+                    color: '#e18a2e',
+                    fontSize: '24px',
+                    fontWeight: 'bold',
+                    whiteSpace: 'nowrap' // ✅ ensures text stays on one line
+                }}
+            >
+                Azim Facilities
+            </span>
+        </NavLink>
+    </div>
+</div>
+
                                 
                                 {/* NAV Toggle Button */}
                                 <button id="mobile-side-drawer" data-target=".header-nav" data-toggle="collapse" type="button" className="navbar-toggler collapsed">
@@ -84,7 +109,7 @@ class Header2 extends React.Component {
                                 {/* EXTRA NAV */}
                                 <div className="extra-nav">
                                     <div className="extra-cell">
-                                        <NavLink to={"#"} onClick={this.handleSearchToggle}>
+                                        <NavLink to={"/"} onClick={this.handleSearchToggle}>
                                             {/* <i className="fa fa-search" /> */}
                                         </NavLink>
                                     </div>
@@ -114,4 +139,3 @@ class Header2 extends React.Component {
 };
 
 export default Header2;
-

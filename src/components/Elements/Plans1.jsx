@@ -3,6 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 var bgimg1 = require('./../../images/background/bg-4.png');
 var bgimg2 = require('./../../images/background/cross-line2.png');
+var img1 = require('./../../images/azim/28.png');
+var img2 = require('./../../images/azim/29.png');
+var img3 = require('./../../images/azim/30.png');
 
 class Plans1 extends React.Component {
     render() {
@@ -27,7 +30,7 @@ class Plans1 extends React.Component {
                                             <div className="pricingtable-wrapper pricing-table-style-5 bg-white">
                                                 <div className="pricingtable-inner">
                                                     <div className="pricingtable-title">
-                                                        {/* <h4>Exterior Building Cleaning</h4> */}
+                                                        <img src={img1}/>
                                                     </div>
                                                     <div className="pricingtable-price">
                                                         {/* <span className="pricingtable-bx">$29</span> */}
@@ -49,7 +52,7 @@ class Plans1 extends React.Component {
                                             <div className="pricingtable-wrapper  pricing-table-style-5 bg-white">
                                                 <div className="pricingtable-inner pricingtable-highlight shadow-lg">
                                                     <div className="pricingtable-title">
-                                                        {/* <h4>Pro Plan</h4> */}
+                                                        <img src={img2}/>
                                                     </div>
                                                     <div className="pricingtable-price">
                                                         {/* <span className="pricingtable-bx">$39</span> */}
@@ -71,7 +74,7 @@ class Plans1 extends React.Component {
                                             <div className="pricingtable-wrapper  pricing-table-style-5 bg-white">
                                                 <div className="pricingtable-inner">
                                                     <div className="pricingtable-title">
-                                                        {/* <h4>Premium Plan</h4> */}
+                                                        <img src={img3}/>
                                                     </div>
                                                     <div className="pricingtable-price">
                                                         {/* <span className="pricingtable-bx">$49</span> */}

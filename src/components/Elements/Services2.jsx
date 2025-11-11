@@ -15,13 +15,13 @@ const services = [
         count: '02',
         title: 'ISO 9001:2015 Certified Company',
         flaticon: 'flaticon-stairs',
-        image: require('./../../images/azim/8.png'),
+        image: require('./../../images/azim/9.png'),
     },
     {
         count: '03',
         title: 'Scalability with Uncompromised Quality',
         flaticon: 'flaticon-window',
-        image: require('./../../images/azim/9.png'),
+        image: require('./../../images/azim/8.png'),
     },
     {
         count: '04',
@@ -29,18 +29,18 @@ const services = [
         flaticon: 'flaticon-skyline',
         image: require('./../../images/azim/10.png'),
     },
-    {
-        count: '05',
-        title: 'Furniture',
-        flaticon: 'flaticon-bed',
-        image: require('./../../images/services/service-projects/5.jpg'),
-    },
-    {
-        count: '06',
-        title: 'Decoration',
-        flaticon: 'flaticon-door',
-        image: require('./../../images/services/service-projects/7.jpg'),
-    }
+    // {
+    //     count: '05',
+    //     title: 'Furniture',
+    //     flaticon: 'flaticon-bed',
+    //     image: require('./../../images/services/service-projects/5.jpg'),
+    // },
+    // {
+    //     count: '06',
+    //     title: 'Decoration',
+    //     flaticon: 'flaticon-door',
+    //     image: require('./../../images/services/service-projects/7.jpg'),
+    // }
 ]
 
 var bgimg1 = require('./../../images/background/cross-line2.png');
@@ -73,13 +73,13 @@ class Services2 extends React.Component {
         };
         return (
             <>
-                <div className="section-full mobile-page-padding p-t80 bg-white bg-change-section">
+                <div className="section-full mobile-page-padding p-t80  bg-change-section" style={{backgroundColor:'#121C22'}}>
                     <div className="container">
                         {/* TITLE START */}
                         <div className="section-head">
                             <div className="sx-separator-outer separator-center">
-                                <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(' + bgimg1 + ')' }}>
-                                    <h3 className="sep-line-one">Strengths and Differentiators</h3>
+                                <div className="sx-separator  bg-moving bg-repeat-x" >
+                                    <h3 className="sep-line-one" style={{color:'white'}}>Strengths and Differentiators</h3>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +97,7 @@ class Services2 extends React.Component {
                                                     <span className="icon-cell"><i className={item.flaticon} /></span>
                                                 </div>
                                                 <div className="icon-content">
-                                                    <h4 className="sx-tilte"> <NavLink to={"/services-detail"} className="sx-text-white"> {item.title}</NavLink></h4>
+                                                    <h4 className="sx-tilte"> <NavLink to={"#"} className="sx-text-white"> {item.title}</NavLink></h4>
                                                 </div>
                                             </div>
                                             <span className="bgcall-block-number">{item.count}</span>

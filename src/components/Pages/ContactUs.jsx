@@ -32,7 +32,7 @@ class ContactUs extends React.Component {
                                 {/* CONTACT FORM*/}
                                 <div className="row">
                                     <div className="col-lg-8 col-md-12 col-sm-12">
-                                        <form className="contact-form cons-contact-form bg-gray p-a30" method="post" action="#">
+                                        <form className="contact-form cons-contact-form  p-a30" method="post" action="#" style={{backgroundColor:'#E0892E'}}>
                                             <div className="contact-one">
                                                 {/* TITLE START */}
                                                 <div className="section-head">
@@ -110,6 +110,10 @@ class ContactUs extends React.Component {
                         </GoogleMapReact>                        
                     </div>
                     {/* SECTION CONTENT END */}
+                </div>
+                <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.3517147155994!2d51.5274698!3d25.279608399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c5bf1c5b1b51%3A0x643fc6f5ecc3e715!2sAzim%20Facilities%20Management%20%26%20Services!5e1!3m2!1sen!2sin!4v1762862807058!5m2!1sen!2sin" width="100%" height="450"  style={{border:'0'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                 </div>
 
                 <Footer />

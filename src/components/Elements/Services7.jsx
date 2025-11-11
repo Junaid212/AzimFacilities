@@ -7,42 +7,48 @@ const services = [
         title: 'AZIM Facilities Management & services',
         flaticon: 'flaticon-sketch',
         image: require('./../../images/azim/15.png'),
-        description: 'Crafting Elevated Experiences: Where Excellence Meets Service. Your space, our commitment.'
+        description: 'Crafting Elevated Experiences: Where Excellence Meets Service. Your space, our commitment.',
+        link: '/facilities-management'
     },
     {
         count: '02',
         title: 'One Way Limousine WLL',
         flaticon: 'flaticon-stairs',
         image: require('./../../images/azim/16.png'),
-        description: 'Elevate every journey with our premium limousine rentals — your destination, our elegance.'
+        description: 'Elevate every journey with our premium limousine rentals — your destination, our elegance.',
+        link: '/limousine'
     },
     {
         count: '03',
         title: 'VenYou Events',
         flaticon: 'flaticon-window',
         image: require('./../../images/azim/17.png'),
-        description: 'Experience seamless events crafted with our expert touch — your celebration, perfected by our expertise.'
+        description: 'Experience seamless events crafted with our expert touch — your celebration, perfected by our expertise.',
+        link: '/events'
     },
     {
         count: '04',
         title: 'Najila Food Trading',
         flaticon: 'flaticon-sketch',
         image: require('./../../images/azim/18.png'),
-        description: "We bring the world's finest flavors to your table. Experience the art of taste with us."
+        description: "We bring the world's finest flavors to your table. Experience the art of taste with us.",
+        link: '/food-trading'
     },
     {
         count: '05',
         title: 'Golden Vision Cleaning and Hospitality Services',
         flaticon: 'flaticon-stairs',
         image: require('./../../images/azim/19.png'),
-        description: 'Where cleanliness meets a warm welcome — your comfort is our commitment.'
+        description: 'Where cleanliness meets a warm welcome — your comfort is our commitment.',
+        link: '/cleaning-and-hospitality'
     },
     {
         count: '06',
         title: 'Vadakara To Kasargod Restaurant',
         flaticon: 'flaticon-window',
         image: require('./../../images/azim/20.png'),
-        description: 'A culinary experience that embodies true authenticity.'
+        description: 'A culinary experience that embodies true authenticity.',
+        link: '/restaurent'
     }
 ]
 
@@ -65,7 +71,7 @@ class Services7 extends React.Component {
                                                         <span className="icon-cell"><i className={item.flaticon} /></span>
                                                     </div>
                                                     <div className="icon-content m-b30">
-                                                        <h4 className="sx-tilte"> <NavLink to={"/services-detail"}  className="sx-text-white">{item.title}</NavLink></h4>
+                                                        <h4 className="sx-tilte"> <NavLink to={item.link}   className="sx-text-white">{item.title}</NavLink></h4>
                                                         <p>{item.description}</p>
                                                     </div>
                                                 </div>

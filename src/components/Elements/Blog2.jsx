@@ -57,7 +57,7 @@ class Blog2 extends React.Component {
                                                 </ul> */}
                                             </div>
                                             <div className="sx-post-title ">
-                                                <h4 className="post-title"><NavLink to={"/blog-single"} style={{color:'#E18A2E'}}>Our Vision</NavLink></h4>
+                                                <h4 className="post-title"><NavLink to={"#"} style={{color:'#E18A2E'}}>Our Vision</NavLink></h4>
                                             </div>
                                             <div className="sx-post-text">
                                                 <p>We aim to be Qatar’s leading force in collaborative excellence, inspiring innovation and shaping industry benchmarks. Our vision is a future where our group of companies flourishes while creating meaningful impact across industries and society.</p>
@@ -113,7 +113,7 @@ class Blog2 extends React.Component {
                                                 </ul> */}
                                             </div>
                                             <div className="sx-post-title ">
-                                                <h4 className="post-title" ><NavLink to={"/blog-single"} style={{color:'#E18A2E'}}>Our Mission</NavLink></h4>
+                                                <h4 className="post-title" ><NavLink to={"#"} style={{color:'#E18A2E'}}>Our Mission</NavLink></h4>
                                             </div>
                                             <div className="sx-post-text">
                                                 <p>Our mission at AZIM Group is to provide outstanding services driven by collaboration, innovation, and unwavering commitment. We strive to surpass client expectations, influence industry standards, and actively support Qatar’s development.</p>

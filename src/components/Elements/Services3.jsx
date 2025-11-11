@@ -7,41 +7,47 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 const services = [
     {
         count: '01',
-        title: 'AZIM Facilities Management & services',
+        title: 'AZIM Facilities Management & Services',
         flaticon: 'flaticon-sketch',
         image: require('./../../images/azim/15.png'),
+        link: '/facilities-management' // ✅ unique link
     },
     {
         count: '02',
         title: 'One Way Limousine WLL',
         flaticon: 'flaticon-stairs',
         image: require('./../../images/azim/16.png'),
+        link: '/limousine'
     },
     {
         count: '03',
         title: 'VenYou Events',
         flaticon: 'flaticon-window',
         image: require('./../../images/azim/17.png'),
+        link: '/events'
     },
     {
         count: '04',
         title: 'Najila Food Trading',
         flaticon: 'flaticon-skyline',
         image: require('./../../images/azim/18.png'),
+        link: '/food-trading'
     },
     {
         count: '05',
         title: 'Golden Vision Cleaning and Hospitality Services',
         flaticon: 'flaticon-bed',
         image: require('./../../images/azim/19.png'),
+        link: '/cleaning-and-hospitality'
     },
     {
         count: '06',
         title: 'Vadakara To Kasargod Restaurant',
         flaticon: 'flaticon-door',
         image: require('./../../images/azim/20.png'),
+        link: '/restaurent'
     }
-]
+];
 
 var bgimg1 = require('./../../images/background/cross-line2.png');
 
@@ -99,8 +105,13 @@ class Services3 extends React.Component {
                                                     {/* <span className="icon-cell"><i className={item.flaticon} /></span> */}
                                                 </div>
                                                 <div className="icon-content">
-                                                    <h4 className="sx-tilte"> <NavLink to={"/services-detail"}  className="sx-text-white"> {item.title}</NavLink></h4>
-                                                </div>
+    <h4 className="sx-tilte">
+        <NavLink to={item.link} className="sx-text-white">
+            {item.title}
+        </NavLink>
+    </h4>
+</div>
+
                                             </div>
                                             <span className="bgcall-block-number">{item.count}</span>
                                             <div className="bg-overlay" />

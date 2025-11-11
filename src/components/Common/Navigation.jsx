@@ -51,7 +51,7 @@ class Navigation extends React.Component {
                             <li><NavLink to={"/facilities-management"}>Facilities Management & services</NavLink></li>
                             <li><NavLink to={"/limousine"}>One Way Limousine</NavLink></li>
                             <li><NavLink to={"/events"}>VenYou Events</NavLink></li>
-                            <li><NavLink to={"/food-tradng"}>Food Trading</NavLink></li>
+                            <li><NavLink to={"/food-trading"}>Food Trading</NavLink></li>
                             <li><NavLink to={"/cleaning-and-hospitality"}>Cleaning and Hospitality Services</NavLink></li>
                             <li><NavLink to={"/restaurent"}>Restaurant</NavLink></li>
                         </ul>

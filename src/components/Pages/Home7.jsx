@@ -32,6 +32,7 @@ class Home7 extends React.Component {
                  
                     <About2/>
                     <About3 bgcolor="bg-white"/>
+                    <ClientsLogo1/>
                     {/* <WhatWeDo3 /> */}
                     <WhatWeDo1 />
                     <Statistics1 />
@@ -59,7 +60,7 @@ class Home7 extends React.Component {
                                                                                 <div className="col-md-3 m-b30">
                                                                                     <div className="sx-icon-box-wraper p-a30  center bg-white shadow">
                                                                                         <div className="sx-icon-box-lg inline-icon text-primary  m-b20 radius bg-secondry  scale-in-center">
-                                                                                            <span className="icon-cell sx-text-primary"><i className="flaticon-door" /></span>
+                                                                                            <span className="icon-cell sx-text-primary"><i className="flaticon-sketch" /></span>
                                                                                         </div>
                                                                                         <div className="icon-content">
                                                                                             <h4 className="sx-tilte">Reliable</h4>
@@ -71,7 +72,7 @@ class Home7 extends React.Component {
                                                                                 <div className="col-md-3 m-b30">
                                                                                     <div className="sx-icon-box-wraper p-a30  center bg-white shadow">
                                                                                         <div className="sx-icon-box-lg inline-icon text-primary  m-b20 radius bg-secondry  scale-in-center">
-                                                                                            <span className="icon-cell sx-text-primary"><i className="flaticon-ruler-1" /></span>
+                                                                                            <span className="icon-cell sx-text-primary"><i className="flaticon-table-1" /></span>
                                                                                         </div>
                                                                                         <div className="icon-content">
                                                                                             <h4 className="sx-tilte">Quality Assurance</h4>
@@ -83,7 +84,7 @@ class Home7 extends React.Component {
                                                                                 <div className="col-md-3 m-b30">
                                                                                     <div className="sx-icon-box-wraper p-a30  center bg-white shadow">
                                                                                         <div className="sx-icon-box-lg inline-icon text-primary  m-b20 radius bg-secondry  scale-in-center">
-                                                                                            <span className="icon-cell sx-text-primary"><i className="flaticon-ruler-1" /></span>
+                                                                                            <span className="icon-cell sx-text-primary"><i className="flaticon-stairs-2" /></span>
                                                                                         </div>
                                                                                         <div className="icon-content">
                                                                                             <h4 className="sx-tilte">Consistent Performance</h4>
@@ -95,7 +96,7 @@ class Home7 extends React.Component {
                                                                                 <div className="col-md-3 m-b30">
                                                                                     <div className="sx-icon-box-wraper p-a30  center bg-white shadow">
                                                                                         <div className="sx-icon-box-lg inline-icon text-primary  m-b20 radius bg-secondry  scale-in-center">
-                                                                                            <span className="icon-cell sx-text-primary"><i className="flaticon-ruler-1" /></span>
+                                                                                            <span className="icon-cell sx-text-primary"><i className="flaticon-table-2" /></span>
                                                                                         </div>
                                                                                         <div className="icon-content">
                                                                                             <h4 className="sx-tilte">Transparent Communication</h4>
@@ -138,6 +139,7 @@ class Home7 extends React.Component {
                         </div>
                         </div>
                         </div>
+                        
 
                 <Footer />
             </>

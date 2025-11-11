@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-var bgimg1 = require('./../../images/background/bg-5.png');
+var bgimg1 = require('./../../images/azim/64.png');
 var bgimg2 = require('./../../images/azim/6.png');
 var bgimg3 = require('./../../images/background/cross-line2.png');
 
@@ -15,7 +15,7 @@ class WhatWeDo1 extends React.Component {
                         {/* TITLE START */}
                         <div className="section-head">
                             <div className="sx-separator-outer separator-left">
-                                <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(' + bgimg3 + ')' }}>
+                                <div className="  " >
                                     <h3 className="sep-line-one">HOW WE WORKS</h3>
                                 </div>
                             </div>
@@ -23,10 +23,10 @@ class WhatWeDo1 extends React.Component {
                         {/* TITLE END */}
                         <div className="section-content">
                             <div className="row number-block-one-outer justify-content-center">
-                                <div className="col-lg-3 col-md-6 col-sm-6 m-b30">
-                                    <div className="number-block-one animate-in-to-top">
-                                        <img src={require('./../../images/azim/24.png')} alt="" />
-                                        <div className="figcaption bg-white text-center p-a20">
+                                <div className="col-lg-3 col-md-6 col-sm-6 m-b30" >
+                                    <div className="number-block-one animate-in-to-top" >
+                                        <img src={require('./../../images/azim/60.png')} alt="" />
+                                        <div className="figcaption bg-white text-center p-a20" style={{boxShadow:'rgba(0, 0, 0, 0.35) 0px 5px 15px'}}>
                                             <h4 className="m-a0">Diverse Portfolio</h4>
                                             <p>Azim Group boasts a diverse, multi-industry portfolio</p>
                                         </div>
@@ -37,8 +37,8 @@ class WhatWeDo1 extends React.Component {
                                 </div>
                                 <div className="col-lg-3 col-md-6 col-sm-6 m-b30">
                                     <div className="number-block-one animate-in-to-top">
-                                        <img src={require('./../../images/pic2.jpg')} alt="" />
-                                        <div className="figcaption bg-white text-center p-a20">
+                                        <img src={require('./../../images/azim/61.png')} alt="" />
+                                        <div className="figcaption bg-white text-center p-a20" style={{boxShadow:'rgba(0, 0, 0, 0.35) 0px 5px 15px'}}>
                                             <h4 className="m-a0">Innovative Vision</h4>
                                             <p>The group is led by an inclusive team that values diverse perspectives and ideas</p>
                                         </div>
@@ -49,8 +49,8 @@ class WhatWeDo1 extends React.Component {
                                 </div>
                                 <div className="col-lg-3 col-md-6 col-sm-6 m-b30">
                                     <div className="number-block-one animate-in-to-top">
-                                        <img src={require('./../../images/pic3.jpg')} alt="" />
-                                        <div className="figcaption bg-white text-center p-a20">
+                                        <img src={require('./../../images/azim/62.png')} alt="" />
+                                        <div className="figcaption bg-white text-center p-a20" style={{boxShadow:'rgba(0, 0, 0, 0.35) 0px 5px 15px'}}>
                                             <h4 className="m-a0">Commitment to Excellence</h4>
                                             <p>Committed to excellence, setting benchmarks through quality and innovation</p>
                                         </div>
@@ -61,8 +61,8 @@ class WhatWeDo1 extends React.Component {
                                 </div>
                                 <div className="col-lg-3 col-md-6 col-sm-6 m-b30">
                                     <div className="number-block-one animate-in-to-top">
-                                        <img src={require('./../../images/pic3.jpg')} alt="" />
-                                        <div className="figcaption bg-white text-center p-a20">
+                                        <img src={require('./../../images/azim/63.png')} alt="" />
+                                        <div className="figcaption bg-white text-center p-a20" style={{boxShadow:'rgba(0, 0, 0, 0.35) 0px 5px 15px'}}>
                                             <h4 className="m-a0">Path to Success</h4>
                                             <p>Professionally develop strategic platforms after thorough testing</p>
                                         </div>

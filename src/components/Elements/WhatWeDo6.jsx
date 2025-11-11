@@ -1,7 +1,7 @@
 import React from 'react';
 
-var bgimg1 = require('./../../images/background/bg-5.png');
-var bgimg2 = require('./../../images/background/bg-2.jpg');
+var bgimg1 = require('./../../images/azim/23.png');
+var bgimg2 = require('./../../images/azim/1.png');
 var bgimg3 = require('./../../images/background/cross-line2.png');
 
 class WhatWeDo6 extends React.Component {
@@ -15,7 +15,14 @@ class WhatWeDo6 extends React.Component {
                         <div className="section-head">
                             <div className="sx-separator-outer separator-left">
                                 <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(' + bgimg3 + ')' }}>
-                                    <h4 style={{margin:'25px 0px -20px 25px'}}>Progressing</h4>
+                                    <h4
+  style={{
+    margin: window.innerWidth <= 768 ? '15px 0px -10px 20px' : '25px 0px -20px 25px'
+  }}
+>
+  Progressing
+</h4>
+
                                     <h3 className="sep-line-one">Beyond Boundaries</h3>
                                 </div>
                             </div>
