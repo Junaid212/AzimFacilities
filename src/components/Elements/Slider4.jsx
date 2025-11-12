@@ -135,9 +135,25 @@ class Slider4 extends React.Component {
                             {/* left side social bar*/}
                             <div className="slide-left-social">
                                 <ul className="clearfix">
-                                    <li><a href="https://x.com/Azimgroupqtr" className="fa fa-twitter" target="_blank" rel="noopener noreferrer"></a></li>
-                                            <li><a href="https://www.instagram.com/azimgroup.qtr/" className="fa fa-instagram" target="_blank" rel="noopener noreferrer"></a></li>
-                                    <li><a href="https://www.facebook.com/azimgroupqtr" className="fa fa-facebook" target="_blank" rel="noopener noreferrer"></a></li>
+<li>
+  <a
+    href="https://x.com/Azimgroupqtr"
+    className="fa-brands fa-x-twitter"
+    target="_blank"
+    rel="noopener noreferrer"
+  ></a>
+</li>
+                                            <li><a href="https://www.instagram.com/azimgroup.qtr/" className="fa-brands fa-instagram" target="_blank" rel="noopener noreferrer"></a></li>
+                                    <li><a href="https://www.facebook.com/azimgroupqtr" className="fa-brands fa-facebook" target="_blank" rel="noopener noreferrer"></a></li>
+                                    <li>
+  <a
+    href="https://wa.me/97477047248"
+    className="fa-brands fa-whatsapp"
+    target="_blank"
+    rel="noopener noreferrer"
+  ></a>
+</li>
+
                                 </ul>
                             </div>
                         </div>

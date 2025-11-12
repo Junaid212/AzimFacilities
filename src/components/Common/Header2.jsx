@@ -71,7 +71,7 @@ class Header2 extends React.Component {
         style={{ display: 'flex', alignItems: 'center' }}
     >
         <NavLink
-            to={"./"}
+            to={"/"}
             style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -93,7 +93,7 @@ class Header2 extends React.Component {
                     whiteSpace: 'nowrap' // ✅ ensures text stays on one line
                 }}
             >
-                Azim Facilities
+                Azim Group
             </span>
         </NavLink>
     </div>

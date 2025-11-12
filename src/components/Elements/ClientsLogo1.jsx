@@ -96,7 +96,7 @@ class ClientsLogo1 extends React.Component {
                                                 boxSizing: 'border-box'
                                             }}
                                         >
-                                            <NavLink to={"/about-1"} className="client-logo-pic">
+                                            <NavLink to={"/about"} className="client-logo-pic">
                                                 <img 
                                                     src={item.image} 
                                                     alt={`Client logo ${index + 1}`}
@@ -107,7 +107,7 @@ class ClientsLogo1 extends React.Component {
                                                     }}
                                                 />
                                                 <div>
-                                                    <span>View More</span>
+                                                    {/* <span>View More</span> */}
                                                 </div>
                                             </NavLink>
                                         </div>
@@ -152,17 +152,17 @@ class ClientsLogo1 extends React.Component {
                         left: 0;
                         right: 0;
                         bottom: 0;
-                        background: rgba(0, 0, 0, 0.7);
+                        // background: rgba(0, 0, 0, 0.7);
                         display: flex;
                         align-items: center;
                         justify-content: center;
                         opacity: 0;
-                        transition: opacity 0.3s ease;
-                        color: white;
+                        // transition: opacity 0.3s ease;
+                        // color: white;
                     }
                     
                     .client-logo-pic:hover div {
-                        opacity: 1;
+                        // opacity: 1;
                     }
                 `}</style>
             </>

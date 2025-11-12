@@ -12314,12 +12314,12 @@ transition: all 0.5s linear;
   top: 50%;
   left: 50%;
   position: absolute;
-  z-index: 2;
-  -webkit-transform: translate(-50%, -50%) scale(0.5);
-  transform: translate(-50%, -50%) scale(0.5);
+  /* z-index: 2; */
+  /* -webkit-transform: translate(-50%, -50%) scale(0.5); */
+  /* transform: translate(-50%, -50%) scale(0.5); */
   opacity: 0;
-  -webkit-box-shadow: 0 0 10px #000000;
-  box-shadow: 0 0 10px #000000;
+  /* -webkit-box-shadow: 0 0 10px #000000; */
+  /* box-shadow: 0 0 10px #000000; */
 }
 
 .client-logo-pic span {
@@ -12348,9 +12348,9 @@ transition: all 0.5s linear;
 }
 
 .client-logo-pic:hover div{
-  -webkit-transform: translate(-50%, -50%) scale(1);
-  transform: translate(-50%, -50%) scale(1);
-  opacity: 1;
+  /* -webkit-transform: translate(-50%, -50%) scale(1); */
+  /* transform: translate(-50%, -50%) scale(1); */
+  /* opacity: 1; */
 }
 
 

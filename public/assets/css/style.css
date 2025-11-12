@@ -12269,7 +12269,7 @@ transition: all 0.5s linear;
 	display: block;
 	position: relative;
 	overflow: hidden;
-	border: 1px solid #ddd;
+	/* border: 1px solid #ddd; */
 }
 
 .client-logo-pic * {
@@ -12288,7 +12288,7 @@ transition: all 0.5s linear;
   right: 0;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
-	background-color: #eef1f2;
+	/* background-color: #eef1f2; */
   content: '';
   opacity: 0.9;
   z-index: 1;
@@ -12318,8 +12318,8 @@ transition: all 0.5s linear;
   -webkit-transform: translate(-50%, -50%) scale(0.5);
   transform: translate(-50%, -50%) scale(0.5);
   opacity: 0;
-  -webkit-box-shadow: 0 0 10px #000000;
-  box-shadow: 0 0 10px #000000;
+  /* -webkit-box-shadow: 0 0 10px #000000; */
+  /* box-shadow: 0 0 10px #000000; */
 }
 
 .client-logo-pic span {
