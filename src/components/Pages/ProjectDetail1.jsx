@@ -9,7 +9,7 @@ import Plans1 from '../Elements/Plans1';
 import Header2 from '../Common/Header2';
 
 var bnrimg = require('./../../images/azim/23.png');
-var bgimg1 = require('./../../images/azim/27.png');
+var bgimg1 = require('./../../images/azim/72.png');
 
 class ProjectDetail1 extends React.Component {
     
@@ -73,7 +73,7 @@ class ProjectDetail1 extends React.Component {
                                 <div className="col-xl-6 col-lg-6 col-md-12">
                                     <div className="video-section-full-v2">
                                         <div className="video-section-full bg-no-repeat bg-cover bg-center overlay-wraper m-b30" style={{ backgroundImage: 'url(' + bgimg1 + ')' }}>
-                                            <div className="overlay-main bg-black opacity-04" />
+                                            <div className="overlay-main " />
                                             {/* <div className="video-section-inner">
                                                 <div className="video-section-content">
                                                     <NavLink to={"#"} className="play-now" data-toggle="modal" data-target="#myModal">

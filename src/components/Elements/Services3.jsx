@@ -9,14 +9,14 @@ const services = [
         count: '01',
         title: 'AZIM Facilities Management & Services',
         flaticon: 'flaticon-sketch',
-        image: require('./../../images/azim/15.png'),
+        image: require('./../../images/azim/16.png'),
         link: '/facilities-management' // ✅ unique link
     },
     {
         count: '02',
         title: 'One Way Limousine WLL',
         flaticon: 'flaticon-stairs',
-        image: require('./../../images/azim/16.png'),
+        image: require('./../../images/azim/15.png'),
         link: '/limousine'
     },
     {

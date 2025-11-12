@@ -4,6 +4,33 @@ import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 import GoogleMapReact from 'google-map-react';
 import Header2 from '../Common/Header2';
+import Select from "react-select";
+
+const serviceOptions = [
+    { value: "facilities Management ", label: "facilities Management " },
+    { value: "Hospitality", label: "Hospitality" },
+    { value: "Limousine service ", label: "Limousine service " },
+    { value: "Cleaning ", label: "Cleaning " },
+    { value: "Landscaping", label: "Landscaping" },
+    { value: "Event Management ", label: "Event Management " },
+    { value: "Food Services", label: "Food Services" },
+];
+
+const customStyles = {
+    option: (styles, { isFocused }) => ({
+        ...styles,
+        backgroundColor: isFocused ? "#ff7a00" : "white",
+        color: isFocused ? "white" : "black",
+        cursor: "pointer",
+    }),
+    control: (styles) => ({
+        ...styles,
+        // borderRadius: "5px",
+        // borderColor: "#ccc",
+        // padding: "4px"
+    }),
+};
+
 
 var bnrimg = require('./../../images/azim/23.png');
 
@@ -32,7 +59,7 @@ class ContactUs extends React.Component {
                                 {/* CONTACT FORM*/}
                                 <div className="row">
                                     <div className="col-lg-8 col-md-12 col-sm-12">
-                                        <form className="contact-form cons-contact-form  p-a30" method="post" action="#" style={{backgroundColor:'#E0892E'}}>
+                                        <form className="contact-form cons-contact-form bg-gray p-a30" method="post" action="#" >
                                             <div className="contact-one">
                                                 {/* TITLE START */}
                                                 <div className="section-head">
@@ -43,15 +70,118 @@ class ContactUs extends React.Component {
                                                     </div>
                                                 </div>
                                                 {/* TITLE END */}
-                                                <div className="form-group">
-                                                    <input name="username" type="text" required className="form-control" placeholder="Name" />
-                                                </div>
-                                                <div className="form-group">
-                                                    <input name="email" type="text" className="form-control" required placeholder="Email" />
-                                                </div>
-                                                <div className="form-group">
-                                                    <textarea name="message" rows={4} className="form-control " required placeholder="Message" defaultValue={""} />
-                                                </div>
+                                                <div className="row">
+    {/* Name */}
+    <div className="col-md-6">
+        <div className="form-group">
+            <input 
+                name="username" 
+                type="text" 
+                required 
+                className="form-control" 
+                placeholder="Name" 
+            />
+        </div>
+    </div>
+
+    {/* Phone */}
+    <div className="col-md-6">
+        <div className="form-group">
+            <input 
+                name="phoneno" 
+                type="text" 
+                required 
+                className="form-control" 
+                placeholder="Phone No" 
+            />
+        </div>
+    </div>
+</div>
+
+{/* Email row */}
+<div className="row">
+    <div className="col-md-12">
+        <div className="form-group">
+            <input 
+                name="email" 
+                type="email" 
+                required 
+                className="form-control" 
+                placeholder="Email" 
+            />
+        </div>
+    </div>
+</div>
+
+{/* Company Name + Services */}
+<div className="row">
+    {/* Company */}
+    <div className="col-md-6">
+        <div className="form-group">
+            <input 
+                name="company" 
+                type="text" 
+                required 
+                className="form-control" 
+                placeholder="Company Name" 
+            />
+        </div>
+    </div>
+
+    {/* Services Dropdown */}
+    <div className="col-md-6">
+        <div className="form-group">
+            <Select
+                options={serviceOptions}
+                styles={customStyles}
+                placeholder="Select Service"
+            />
+        </div>
+        <style>{`.custom-select {
+    position: relative;
+    width: 100%;
+}
+
+.custom-select div {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background: white;
+}
+
+.custom-options {
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ccc;
+    background: white;
+    z-index: 10;
+    display: none;
+}
+
+.custom-options div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.custom-options div:hover {
+    background: orange;
+    color: white;
+}
+`}</style>
+    </div>
+</div>
+
+{/* Message */}
+<div className="form-group">
+    <textarea
+        name="message"
+        rows={4}
+        className="form-control"
+        required
+        placeholder="Message"
+    />
+</div>
+
                                                 <div className="text-right">
                                                     <button name="submit" type="button" value="Submit" className="site-button btn-half"><span> submit</span>
                                                     </button>

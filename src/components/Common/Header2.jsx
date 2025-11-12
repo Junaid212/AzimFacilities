@@ -6,7 +6,7 @@ class Header2 extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = { logo: require('./../../images/logo.png') };
+        this.state = { logo: require('./../../images/67.png') };
     }
 
     state = { isSearchActive: false };
@@ -82,7 +82,7 @@ class Header2 extends React.Component {
             <img
                 src={this.state.logo}
                 alt="Azim Facilities"
-                style={{ height: '54px' }}
+                style={{ height: '74px', width:'' }}
             />
             <span
                 style={{
@@ -93,7 +93,7 @@ class Header2 extends React.Component {
                     whiteSpace: 'nowrap' // ✅ ensures text stays on one line
                 }}
             >
-                Azim Group
+                {/* Azim Group */}
             </span>
         </NavLink>
     </div>

@@ -6,7 +6,7 @@ const services = [
         count: '01',
         title: 'AZIM Facilities Management & services',
         flaticon: 'flaticon-sketch',
-        image: require('./../../images/azim/15.png'),
+        image: require('./../../images/azim/16.png'),
         description: 'Crafting Elevated Experiences: Where Excellence Meets Service. Your space, our commitment.',
         link: '/facilities-management'
     },
@@ -14,7 +14,7 @@ const services = [
         count: '02',
         title: 'One Way Limousine WLL',
         flaticon: 'flaticon-stairs',
-        image: require('./../../images/azim/16.png'),
+        image: require('./../../images/azim/15.png'),
         description: 'Elevate every journey with our premium limousine rentals — your destination, our elegance.',
         link: '/limousine'
     },
