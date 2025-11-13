@@ -89,7 +89,7 @@ class ClientsLogo1 extends React.Component {
                                         transform: `translateX(-${currentSlide * (100 / this.slidesToShow)}%)`,
                                         transition: 'transform 0.5s ease-in-out',
                                         display: 'flex',
-                                        width: `${(logos.length / this.slidesToShow) * 10}%`
+                                        width: `${(logos.length / this.slidesToShow) * 20}%`
                                     }}
                                 >
                                     {logos.map((item, index) => (
