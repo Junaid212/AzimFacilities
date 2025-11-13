@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AzimFacilities/static/css/main.5ac8c4a9.css",
-    "main.js": "/AzimFacilities/static/js/main.9bbb7baf.js",
+    "main.js": "/AzimFacilities/static/js/main.aedfeabd.js",
     "static/js/787.ad2546c4.chunk.js": "/AzimFacilities/static/js/787.ad2546c4.chunk.js",
     "static/media/6.png": "/AzimFacilities/static/media/6.d6a1e1e8bfdbc9c6eecf.png",
     "static/media/23.png": "/AzimFacilities/static/media/23.f397b93567b2652bccdf.png",
@@ -116,11 +116,11 @@
     "static/media/77.png": "/AzimFacilities/static/media/77.64745790f0cfb333569d.png",
     "index.html": "/AzimFacilities/index.html",
     "main.5ac8c4a9.css.map": "/AzimFacilities/static/css/main.5ac8c4a9.css.map",
-    "main.9bbb7baf.js.map": "/AzimFacilities/static/js/main.9bbb7baf.js.map",
+    "main.aedfeabd.js.map": "/AzimFacilities/static/js/main.aedfeabd.js.map",
     "787.ad2546c4.chunk.js.map": "/AzimFacilities/static/js/787.ad2546c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ac8c4a9.css",
-    "static/js/main.9bbb7baf.js"
+    "static/js/main.aedfeabd.js"
   ]
 }

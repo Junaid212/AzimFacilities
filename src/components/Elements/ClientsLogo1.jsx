@@ -38,7 +38,7 @@ class ClientsLogo1 extends React.Component {
         this.state = {
             currentSlide: 0
         };
-        this.slidesToShow = 4; // Number of logos to show at once
+        this.slidesToShow = 5; // Number of logos to show at once
         this.totalSlides = Math.ceil(logos.length / this.slidesToShow);
         this.slideInterval = null;
     }

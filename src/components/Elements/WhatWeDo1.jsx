@@ -9,9 +9,18 @@ class WhatWeDo1 extends React.Component {
     render() {
         return (
             <>
-                <div className="section-full  mobile-page-padding bg-white  p-t80 p-b30 bg-repeat overflow-hide" style={{ backgroundImage: 'url(' + bgimg1 + ')' }}>
+                <div className="section-full  mobile-page-padding bg-white  p-t80 p-b30 bg-repeat overflow-hide" style={{
+  backgroundImage: `url(${bgimg1})`,
+  backgroundColor: 'rgba(0,0,0,0.1)',
+  backgroundBlendMode: 'multiply',
+  backgroundSize: 'cover',
+  backgroundPosition: 'center'
+}}
+
+>
+                {/* <div className="section-full  mobile-page-padding bg-white  p-t80 p-b30 bg-repeat overflow-hide" style={{ backgroundImage: 'url(' + bgimg1 + ')' }}> */}
                     <div className="container right-half-bg-image-outer">
-                        <div className="right-half-bg-image bg-parallax bg-fixed bg-top-right" data-stellar-background-ratio={0} style={{ backgroundImage: 'url(' + bgimg2 + ')' }} />
+                        {/* <div className="right-half-bg-image bg-parallax bg-fixed bg-top-right" data-stellar-background-ratio={0} style={{ backgroundImage: 'url(' + bgimg2 + ')' }} /> */}
                         {/* TITLE START */}
                         <div className="section-head">
                             <div className="sx-separator-outer separator-left">
