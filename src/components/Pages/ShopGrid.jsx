@@ -70,7 +70,10 @@ class ShopGrid extends React.Component {
                             <blockquote className="bdr-1 bdr-solid bdr-gray author-quote">
                                             <h4 className="m-b0">For more details, check out the link below!<i className="fa fa-quote-left" /> </h4>
                                             <div className="p-t15">
-                                                <strong>najilafood.com</strong>
+                                                <a href="https://najilafood.com" target="_blank" rel="noopener noreferrer">
+    <strong>najilafood.com</strong>
+</a>
+
                                                 {/* <span>Interior Designer</span> */}
                                             </div>
                                         </blockquote>

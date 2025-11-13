@@ -2,26 +2,32 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const logos = [
-    { image: require('./../../images/azim/76.png') },
-    { image: require('./../../images/azim/77.png') },
-    { image: require('./../../images/azim/78.png') },
-    { image: require('./../../images/azim/79.png') },
-    { image: require('./../../images/azim/80.png') },
-    { image: require('./../../images/azim/81.png') },
-    { image: require('./../../images/azim/82.png') },
-    { image: require('./../../images/azim/83.png') },
-    { image: require('./../../images/azim/84.png') },
-    { image: require('./../../images/azim/85.png') },
-    { image: require('./../../images/azim/86.png') },
-    { image: require('./../../images/azim/87.png') },
-    { image: require('./../../images/azim/88.png') },
-    { image: require('./../../images/azim/89.png') },
-    { image: require('./../../images/azim/90.png') },
-    { image: require('./../../images/azim/91.png') },
-    { image: require('./../../images/azim/92.png') },
-    { image: require('./../../images/azim/93.png') },
-    { image: require('./../../images/azim/94.png') },
-]
+    { image: require('./../../images/client/77.png') },
+    { image: require('./../../images/client/78.png') },
+    { image: require('./../../images/client/79.png') },
+    { image: require('./../../images/client/80.png') },
+    { image: require('./../../images/client/81.png') },
+    { image: require('./../../images/client/82.png') },
+    { image: require('./../../images/client/83.png') },
+    { image: require('./../../images/client/84.png') },
+    { image: require('./../../images/client/85.png') },
+    { image: require('./../../images/client/86.png') },
+    { image: require('./../../images/client/87.png') },
+    { image: require('./../../images/client/88.png') },
+    { image: require('./../../images/client/89.png') },
+    { image: require('./../../images/client/90.png') },
+    { image: require('./../../images/client/91.png') },
+    { image: require('./../../images/client/92.png') },
+    { image: require('./../../images/client/93.png') },
+    { image: require('./../../images/client/94.png') },
+    { image: require('./../../images/client/95.png') },
+    { image: require('./../../images/client/96.png') },
+    { image: require('./../../images/client/97.png') },
+    { image: require('./../../images/client/98.png') },
+    { image: require('./../../images/client/99.png') },
+    { image: require('./../../images/client/100.png') },
+];
+
 
 var bgimg1 = require('./../../images/background/bg-12.jpg');
 var bgimg2 = require('./../../images/background/cross-line2.png');
@@ -83,7 +89,7 @@ class ClientsLogo1 extends React.Component {
                                         transform: `translateX(-${currentSlide * (100 / this.slidesToShow)}%)`,
                                         transition: 'transform 0.5s ease-in-out',
                                         display: 'flex',
-                                        width: `${(logos.length / this.slidesToShow) * 20}%`
+                                        width: `${(logos.length / this.slidesToShow) * 10}%`
                                     }}
                                 >
                                     {logos.map((item, index) => (

@@ -29,13 +29,13 @@ class Footer extends React.Component {
                                             <li><a href="https://x.com/Azimgroupqtr" className="fa-brands fa-twitter" target="_blank" rel="noopener noreferrer"></a></li>
                                             <li><a href="https://www.instagram.com/azimgroup.qtr/" className="fa-brands fa-instagram" target="_blank" rel="noopener noreferrer"></a></li>
                                             <li>
-  <a
-    href="https://wa.me/97477047248"
-    className="fa-brands fa-whatsapp"
-    target="_blank"
-    rel="noopener noreferrer"
-  ></a>
-</li>
+                                                <a
+                                                    href="https://wa.me/97477047248"
+                                                    className="fa-brands fa-whatsapp"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                ></a>
+                                            </li>
 
                                         </ul>
                                     </div>
@@ -107,9 +107,9 @@ class Footer extends React.Component {
                                         <h5 className="widget-title">Quick links</h5>
                                         <ul>
                                             <li><NavLink to={"/"}>Home</NavLink></li>
-                                            <li><NavLink to={"/about-1"}>About</NavLink></li>
-                                            <li><NavLink to={"/services-1"}>Services</NavLink></li>
-                                            <li><NavLink to={"/project-grid-3-columns"}>Sectors</NavLink></li>
+                                            <li><NavLink to={"/about"}>About</NavLink></li>
+                                            <li><NavLink to={"/services"}>Services</NavLink></li>
+                                            <li><NavLink to={"/sector"}>Sectors</NavLink></li>
                                             <li><NavLink to={"/contact-us"}>Contact Us</NavLink></li>
                                         </ul>
                                     </div>
@@ -119,12 +119,12 @@ class Footer extends React.Component {
                                     <div className="widget widget_services inline-links">
                                         <h5 className="widget-title">Services</h5>
                                         <ul>
-                                            <li><NavLink to={"/about-1"}>Facilities Management & services</NavLink></li>
-                                            <li><NavLink to={"/services-1"}>One Way Limousine</NavLink></li>
-                                            <li><NavLink to={"/project-grid-3-columns"}>VenYou Events</NavLink></li>
-                                            <li><NavLink to={"/blog-grid"}>Food Trading</NavLink></li>
-                                            <li><NavLink to={"/contact-us"}>Cleaning and Hospitality Services</NavLink></li>
-                                            <li><NavLink to={"/contact-us"}>Restaurant</NavLink></li>
+                                            <li><NavLink to={"/facilities-management"}>Facilities Management & services</NavLink></li>
+                                            <li><NavLink to={"/limousine"}>One Way Limousine</NavLink></li>
+                                            <li><NavLink to={"/events"}>VenYou Events</NavLink></li>
+                                            <li><NavLink to={"/food-trading"}>Food Trading</NavLink></li>
+                                            <li><NavLink to={"/cleaning-and-hospitality"}>Cleaning and Hospitality Services</NavLink></li>
+                                            <li><NavLink to={"/restaurent"}>Restaurant</NavLink></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -133,16 +133,53 @@ class Footer extends React.Component {
                                     <div className="widget widget_address_outer">
                                         <h5 className="widget-title">Contact Us</h5>
                                         <ul className="widget_address">
-                                            <li>NBK Building, #805, 8th Floor, Doha-Qatar</li>
-                                            <li>afms@azimgroup.qa</li>
-                                            <li>+ 974 4480 2851</li>
-                                            <li>+ 974 7704 7248</li>
+                                            <li>
+                                                <a 
+                                                    href="https://maps.google.com/?q=Azim Facilities Management & Services" 
+                                                    target="_blank" 
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    NBK Building, #805, 8th Floor, Doha-Qatar
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="mailto:afms@azimgroup.qa">
+                                                    afms@azimgroup.qa
+                                                </a>
+                                                
+                                            </li>
+                                           
+
+                                            <li>
+                                                <a href="tel:+97444802851">
+                                                    + 974 4480 2851
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="tel:+97477047248">
+                                                    + 974 7704 7248
+                                                </a>
+                                            </li>
+                                            
                                         </ul>
                                     </div>
+                                    <style>{`.widget_address li a {
+                                    color: inherit;
+                                    text-decoration: none;
+                                    transition: color 0.3s ease;
+                                }
+
+                                .widget_address li a:hover {
+                                    color: orange;
+                                }
+                                `}</style>
                                 </div>
+
                             </div>
                         </div>
-                        <div className="container">
+                        {/* <div className="container">
                             <div className="call-to-action-wrap">
                                 <div className="row">
                                     <div className="col-lg-7 col-md-6">
@@ -169,7 +206,7 @@ class Footer extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     {/* FOOTER COPYRIGHT */}
                     <div className="footer-bottom overlay-wraper">

@@ -205,22 +205,35 @@ class ContactUs extends React.Component {
                                                     <div className="icon-xs"><i className="fa fa-phone" /></div>
                                                     <div className="icon-content">
                                                         <h5 className="m-t0">Phone number</h5>
-                                                        <p>+ 974 4480 2851</p>
-                                                        <p>+ 974 7704 7248</p>
+                                                        <p> <a href="tel:+97444802851">
+                                                    + 974 4480 2851
+                                                </a></p>
+                                                        <p> <a href="tel:+97477047248">
+                                                    + 974 7704 7248
+                                                </a></p>
                                                     </div>
                                                 </div>
                                                 <div className="sx-icon-box-wraper left p-b30">
                                                     <div className="icon-xs"><i className="fa fa-envelope" /></div>
                                                     <div className="icon-content">
                                                         <h5 className="m-t0">Email address</h5>
-                                                        <p>afms@azimgroup.qa</p>
+                                                        <p><a href="mailto:afms@azimgroup.qa">
+    afms@azimgroup.qa
+</a>
+</p>
                                                     </div>
                                                 </div>
                                                 <div className="sx-icon-box-wraper left">
                                                     <div className="icon-xs"><i className="fa fa-map-marker" /></div>
                                                     <div className="icon-content">
                                                         <h5 className="m-t0">Address info</h5>
-                                                        <p>NBK Building, #805, 8th Floor, Doha-Qatar</p>
+                                                        <p><a 
+                                                    href="https://maps.google.com/?q=Azim Facilities Management & Services" 
+                                                    target="_blank" 
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    NBK Building, #805, 8th Floor, Doha-Qatar
+                                                </a></p>
                                                     </div>
                                                 </div>
                                             </div>
