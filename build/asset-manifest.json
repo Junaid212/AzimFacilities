@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AzimFacilities/static/css/main.5ac8c4a9.css",
-    "main.js": "/AzimFacilities/static/js/main.ac871844.js",
+    "main.js": "/AzimFacilities/static/js/main.690eb0ed.js",
     "static/js/787.ad2546c4.chunk.js": "/AzimFacilities/static/js/787.ad2546c4.chunk.js",
     "static/media/6.png": "/AzimFacilities/static/media/6.d6a1e1e8bfdbc9c6eecf.png",
     "static/media/23.png": "/AzimFacilities/static/media/23.f397b93567b2652bccdf.png",
@@ -11,7 +11,7 @@
     "static/media/4.png": "/AzimFacilities/static/media/4.45f20ed8821dd94506f6.png",
     "static/media/37.png": "/AzimFacilities/static/media/37.8b9927639fdbf12bab55.png",
     "static/media/1.png": "/AzimFacilities/static/media/1.9d6070b34ad1e09d261e.png",
-    "static/media/66.png": "/AzimFacilities/static/media/66.1fd8d7fd40cf43f8dc09.png",
+    "static/media/66.png": "/AzimFacilities/static/media/66.5841c6f0a29ddd4d86bd.png",
     "static/media/51.png": "/AzimFacilities/static/media/51.088c9aa41c6404d3883a.png",
     "static/media/32.png": "/AzimFacilities/static/media/32.d1b7c41aac930a7528e4.png",
     "static/media/52.png": "/AzimFacilities/static/media/52.0699623aa8a9cec5ff6e.png",
@@ -128,11 +128,11 @@
     "static/media/92.png": "/AzimFacilities/static/media/92.8e36592d7f3e7db9c715.png",
     "index.html": "/AzimFacilities/index.html",
     "main.5ac8c4a9.css.map": "/AzimFacilities/static/css/main.5ac8c4a9.css.map",
-    "main.ac871844.js.map": "/AzimFacilities/static/js/main.ac871844.js.map",
+    "main.690eb0ed.js.map": "/AzimFacilities/static/js/main.690eb0ed.js.map",
     "787.ad2546c4.chunk.js.map": "/AzimFacilities/static/js/787.ad2546c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ac8c4a9.css",
-    "static/js/main.ac871844.js"
+    "static/js/main.690eb0ed.js"
   ]
 }

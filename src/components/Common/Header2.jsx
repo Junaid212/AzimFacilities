@@ -82,7 +82,7 @@ class Header2 extends React.Component {
             <img
                 src={this.state.logo}
                 alt="Azim Facilities"
-                style={{ height: '74px', width:'' }}
+                // style={{ height: '74px', width:'auto !important' }}
             />
             <span
                 style={{
