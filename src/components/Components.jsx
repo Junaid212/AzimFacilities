@@ -61,6 +61,7 @@ import Government from './Pages/Government';
 import Residential from './Pages/Residential';
 import RealEstate from './Pages/RealEstate';
 import Education from './Pages/Education';
+import Careers from './Pages/Careers';
 
 class Components extends React.Component {
     render() {
@@ -130,6 +131,7 @@ class Components extends React.Component {
                             <Route path='/government-sector' element={<Government/>} />
                             <Route path='/real-estate-sector' element={<RealEstate/>} />
                             <Route path='/education-sector' element={<Education/>} />
+                            <Route path='/career' element={<Careers/>} />
                             
                             <Route element={<Error/>} />
                         </Routes>
