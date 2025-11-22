@@ -128,7 +128,7 @@ class Home7 extends React.Component {
                                             <div className="col-md-6">
                                                 <div className="sx-box m-b30">
                                                     <div className="sx-media">
-                                                        <img src={require('./../../images/azim/12.png')} alt="" />
+                                                        <img src={require('./../../images/azim/101.png')} alt="" />
                                                     </div>
                                                 </div>
                                             </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Header4 from './../Common/Header4';
 import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
@@ -10,7 +10,7 @@ import Header2 from '../Common/Header2';
 
 var bnrimg = require('./../../images/azim/23.png');
 var bgimg1 = require('./../../images/azim/72.png');
-
+var bgimg2 = require('./../../images/background/cross-line.png');
 class ProjectDetail1 extends React.Component {
     
     componentDidMount() {
@@ -130,6 +130,9 @@ class ProjectDetail1 extends React.Component {
                                         {/* SECTION CONTENT END */}
                     {/* <Projects6 /> */}
                 </div>
+                 <div className="text-center load-more-btn-outer" style={{ backgroundImage: 'url(' + bgimg2 + ')' }}>
+                                <Link to={"/career"} className="site-button-secondry btn-half"><span>View Career</span></Link>
+                            </div>
 
                 <Footer />
             </>
