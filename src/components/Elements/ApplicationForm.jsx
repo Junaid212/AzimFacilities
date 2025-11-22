@@ -126,7 +126,7 @@ const styles = `
   .submit-button {
     width: 100%;
     height: 56px;
-    background: linear-gradient(to right, #2563eb, #4f46e5);
+    background: linear-gradient(to right, #E18A2E, #E18A2E);
     color: white;
     font-size: 1.125rem;
     font-weight: 600;
@@ -141,7 +141,7 @@ const styles = `
   }
 
   .submit-button:hover {
-    background: linear-gradient(to right, #1e40af, #4338ca);
+    background: linear-gradient(to right, #121C22, #121C22);
   }
 
   .submit-button:disabled {
