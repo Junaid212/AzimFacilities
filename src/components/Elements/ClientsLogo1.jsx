@@ -2,9 +2,9 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const logos = [
-    { image: require('./../../images/client/77.png') },
+    // { image: require('./../../images/client/77.png') },
     { image: require('./../../images/client/78.png') },
-    { image: require('./../../images/client/79.png') },
+    // { image: require('./../../images/client/79.png') },
     { image: require('./../../images/client/80.png') },
     { image: require('./../../images/client/81.png') },
     { image: require('./../../images/client/82.png') },
@@ -25,7 +25,38 @@ const logos = [
     { image: require('./../../images/client/97.png') },
     { image: require('./../../images/client/98.png') },
     { image: require('./../../images/client/99.png') },
-    { image: require('./../../images/client/100.png') },
+    { image: require('./../../images/client/102.png') },
+    { image: require('./../../images/client/103.png') },
+    { image: require('./../../images/client/104.png') },
+    { image: require('./../../images/client/105.png') },
+    { image: require('./../../images/client/106.png') },
+    { image: require('./../../images/client/107.png') },
+    { image: require('./../../images/client/108.png') },
+    { image: require('./../../images/client/109.png') },
+    { image: require('./../../images/client/110.png') },
+    { image: require('./../../images/client/111.png') },
+    { image: require('./../../images/client/112.png') },
+    { image: require('./../../images/client/113.png') },
+    { image: require('./../../images/client/114.png') },
+    { image: require('./../../images/client/115.png') },
+    { image: require('./../../images/client/116.png') },
+    { image: require('./../../images/client/117.png') },
+    { image: require('./../../images/client/118.png') },
+    { image: require('./../../images/client/119.png') },
+    { image: require('./../../images/client/120.png') },
+    { image: require('./../../images/client/121.png') },
+    { image: require('./../../images/client/122.png') },
+    { image: require('./../../images/client/123.png') },
+    { image: require('./../../images/client/124.png') },
+    { image: require('./../../images/client/125.png') },
+    { image: require('./../../images/client/126.png') },
+    { image: require('./../../images/client/127.png') },
+    { image: require('./../../images/client/128.png') },
+    { image: require('./../../images/client/129.png') },
+    { image: require('./../../images/client/130.png') },
+    { image: require('./../../images/client/131.png') },
+    { image: require('./../../images/client/132.png') },
+    { image: require('./../../images/client/133.png') },
 ];
 
 
@@ -38,7 +69,7 @@ class ClientsLogo1 extends React.Component {
         this.state = {
             currentSlide: 0
         };
-        this.slidesToShow = window.innerWidth < 768 ? 3 : 5; // Number of logos to show at once
+        this.slidesToShow = window.innerWidth < 768 ? 5: 7; // Number of logos to show at once
         this.totalSlides = Math.ceil(logos.length / this.slidesToShow);
         this.slideInterval = null;
     }

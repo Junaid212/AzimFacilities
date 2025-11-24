@@ -24,7 +24,7 @@ class Footer extends React.Component {
                                         </div>
                                         <p>Azim Group Qatar blends tradition and innovation, excelling in trading, hospitality, and beyond.</p>
                                         <ul className="social-icons  sx-social-links">
-                                            {/* <li><a href="https://www.behance.net/" className="fa fa-behance" target="_blank"></a></li> */}
+                                            <li><a href="https://www.linkedin.com/company/azim-facilities-management-services/" className="fa-brands fa-linkedin" target="_blank"></a></li>
                                             <li><a href="https://www.facebook.com/azimgroupqtr" className="fa-brands fa-facebook" target="_blank" rel="noopener noreferrer"></a></li>
                                             <li><a href="https://x.com/Azimgroupqtr" className="fa-brands fa-twitter" target="_blank" rel="noopener noreferrer"></a></li>
                                             <li><a href="https://www.instagram.com/azimgroup.qtr/" className="fa-brands fa-instagram" target="_blank" rel="noopener noreferrer"></a></li>

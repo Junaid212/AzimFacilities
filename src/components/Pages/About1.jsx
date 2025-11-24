@@ -12,7 +12,7 @@ import WhatWeDo3 from '../Elements/WhatWeDo3';
 import WhatWeDo2 from '../Elements/WhatWeDo2';
 import Header2 from '../Common/Header2';
 
-var bnrimg = require('./../../images/azim/24.png');
+var bnrimg = require('./../../images/azim/23.png');
 var bgimg2 = require('./../../images/azim/36.png');
 
 class About1 extends React.Component {

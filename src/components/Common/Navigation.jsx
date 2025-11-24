@@ -87,6 +87,7 @@ class Navigation extends React.Component {
                         </ul>
                     </li>
                     <li><NavLink to={"/faq"}>FAQ</NavLink></li> */}
+                    <li><NavLink to={"/career"}>Career</NavLink></li>
                     <li><NavLink to={"/contact-us"}>Contact</NavLink></li>
                 </ul>
             </>

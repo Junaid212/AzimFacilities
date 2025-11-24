@@ -325,7 +325,7 @@ export default function Careers() {
       color: #4b5563;
     }
   `;
-var bnrimg = require('./../../images/azim/24.png');
+var bnrimg = require('./../../images/azim/23.png');
   const handleSelectRole = (role, department) => {
     setSelectedRole(role);
     setSelectedDepartment(department);
@@ -347,109 +347,11 @@ var bnrimg = require('./../../images/azim/24.png');
     <Banner title="Build Your Career With Excellence" pagename="Career" description="Discover opportunities across hospitality, operations, and management. Join a team that values growth, innovation, and exceptional service." bgimage={bnrimg}/>
       <style>{styles}</style>
       <div className="careers-container">
-        {/* Hero Section */}
-        {/* <div className="hero-section">
-          <div className="hero-bg"></div>
-          
-          <div className="hero-content">
-            <div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-            >
-              <div
-                initial={{ scale: 0.9, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-                transition={{ delay: 0.2 }}
-              >
-                <span className="hero-badge">
-                  Join Our Team
-                </span>
-              </div>
-              
-              <h1 className="hero-title">
-                Build Your Career<br />
-                <span className="hero-title-gradient">
-                  With Excellence
-                </span>
-              </h1>
-              
-              <p className="hero-description">
-                Discover opportunities across hospitality, operations, and management. 
-                Join a team that values growth, innovation, and exceptional service.
-              </p>
-
-              <button
-                onClick={() => {
-                  setShowForm(true);
-                  setTimeout(() => {
-                    document.getElementById('application-form')?.scrollIntoView({ behavior: 'smooth' });
-                  }, 100);
-                }}
-                className="hero-button"
-              >
-                Apply Now
-              </button>
-            </div>
-          </div>
-        </div> */}
-
-        {/* Stats Section */}
-        {/* <div className="stats-container">
-          <div className="stats-grid">
-            {stats.map((stat, idx) => {
-              const Icon = stat.icon;
-              return (
-                <div
-                  key={stat.label}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.1 * idx }}
-                  className="stat-card"
-                >
-                  <div className="stat-icon">
-                    <Icon style={{ width: 24, height: 24, color: 'white' }} />
-                  </div>
-                  <div className="stat-value">
-                    {stat.value}
-                  </div>
-                  <div className="stat-label">
-                    {stat.label}
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div> */}
+       
 
         {/* Main Content */}
         <div className="main-content">
-          {/* Search Section */}
-          {/* <div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3 }}
-            className="search-section"
-          >
-            <h2 className="search-title">
-              Explore Opportunities
-            </h2>
-            <p className="search-description">
-              Browse through our open positions and find the role that matches your skills and aspirations
-            </p>
-            
-            <div className="search-wrapper">
-              <Search className="search-icon" />
-              <input
-                type="text"
-                placeholder="Search for positions..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="search-input"
-              />
-            </div>
-          </div> */}
-
+          
           {/* Job Categories */}
           <JobCategories onSelectRole={handleSelectRole} />
 

@@ -16,7 +16,7 @@ import Header2 from '../Common/Header2';
 var bnrimg = require('./../../images/azim/13.png');
 var bgimg1 = require('./../../images/azim/14.png');
 var bgimg2 = require('./../../images/azim/21.png');
-var bgimg3 = require('./../../images/azim/22.png');
+var bgimg3 = require('./../../images/azim/ector.png');
 
 class Home4 extends React.Component {
     componentDidMount() {
@@ -132,7 +132,7 @@ class Home4 extends React.Component {
                                     <div className="col-xl-7 col-lg-7 col-md-12">
                                         <div className="about-home-2" style={{postion:'relative',padding:'80px 40px 80px 40px'}}>
                                             <div className="text-left">
-                                            <NavLink to={"#"} className="site-button-link">MANGING DIRECTOR</NavLink>
+                                            <NavLink to={"#"} className="site-button-link">MANAGING DIRECTOR</NavLink>
                                             </div><br/>
                                             <h3 className="m-t0 sx-tilte">Mr. Mohammed Shameer</h3>
                                             <p>We are proud to unite a diverse group of companies, each bringing its own strengths and expertise, all driven by a shared commitment to excellence. Based in the heart of Doha, we remain dedicated to innovation and continuous growth, ensuring we not only meet your expectations but consistently exceed them.</p>

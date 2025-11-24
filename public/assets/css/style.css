@@ -8175,6 +8175,9 @@ HEADER (top part of page)
 	.logo-header {
 		width: 100px;
 	}
+	.logo-header-inner img {
+	max-width: 170%;
+}
 }
 
 .logo-footer {

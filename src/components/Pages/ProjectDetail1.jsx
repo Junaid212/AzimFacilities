@@ -7,6 +7,8 @@ import Projects6 from './../Elements/Projects6';
 import ReactPlayer from 'react-player';
 import Plans1 from '../Elements/Plans1';
 import Header2 from '../Common/Header2';
+import JobCategories from '../Elements/JobCategories';
+import JobCategory from '../Elements/JobCategory';
 
 var bnrimg = require('./../../images/azim/23.png');
 var bgimg1 = require('./../../images/azim/72.png');
@@ -48,15 +50,15 @@ class ProjectDetail1 extends React.Component {
                                 <div className="col-xl-6 col-lg-6 col-md-12">
                                     <div className="about-home-3 m-b30 bg-white">
                                         <h3 className="m-t0 m-b20 sx-tilte">What Azim Facilities Do</h3>
-                                        <p>We provide highly trained and professional hospitality staff, including butlers, captains, bartenders, waiters/waitresses, hosts/hostesses, and commis personnel. Our team delivers exceptional service, ensuring a refined and seamless guest experience for hotels, events, and luxury venues.</p>
-                                        <ul class="list-angle-right anchor-line two-column-list">
+                                        <h2 className='title ' style={{color:'#E18A2E', textTransform:'uppercase', fontWeight:'bold'}}>We provide highly trained and professional hospitality staff, Which includes </h2>
+                                        {/* <ul class="list-angle-right anchor-line two-column-list">
   <li>Butlers</li>
   <li>Captains</li>
   <li>Bartenders</li>
   <li>Waiters/Waitresses</li>
   <li>Hosts/Hostesses</li>
   <li>Commis personnel</li>
-</ul>
+</ul> */}
 <style>{`
 .two-column-list {
   columns: 2; /* splits list into 2 columns */
@@ -65,6 +67,7 @@ class ProjectDetail1 extends React.Component {
 }
 
 `}</style>
+
                                         <div className="text-left">
                                             {/* <NavLink to="/about-1" className="site-button btn-half"><span>Read More</span></NavLink> */}
                                         </div>
@@ -93,6 +96,7 @@ class ProjectDetail1 extends React.Component {
                         </div>
                     </div>
                 </div>
+                <JobCategory />
                     {/* SECTION CONTENT END  */}
                     <Plans1 />
                     {/* SECTION CONTENTG START */}
@@ -130,9 +134,9 @@ class ProjectDetail1 extends React.Component {
                                         {/* SECTION CONTENT END */}
                     {/* <Projects6 /> */}
                 </div>
-                 <div className="text-center load-more-btn-outer" style={{ backgroundImage: 'url(' + bgimg2 + ')' }}>
+                 {/* <div className="text-center load-more-btn-outer" style={{ backgroundImage: 'url(' + bgimg2 + ')' }}>
                                 <Link to={"/career"} className="site-button-secondry btn-half"><span>View Career</span></Link>
-                            </div>
+                            </div> */}
 
                 <Footer />
             </>
