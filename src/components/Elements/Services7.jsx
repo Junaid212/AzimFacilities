@@ -5,7 +5,7 @@ const services = [
     {
         count: '01',
         title: 'AZIM Facilities Management & services',
-        flaticon: 'flaticon-sketch',
+        logo: require('./../../images/azim/143.png'),
         image: require('./../../images/azim/16.png'),
         description: 'Crafting Elevated Experiences: Where Excellence Meets Service. Your space, our commitment.',
         link: '/facilities-management'
@@ -13,7 +13,7 @@ const services = [
     {
         count: '02',
         title: 'One Way Limousine WLL',
-        flaticon: 'flaticon-stairs',
+        logo: require('./../../images/azim/144.png'),
         image: require('./../../images/azim/15.png'),
         description: 'Elevate every journey with our premium limousine rentals — your destination, our elegance.',
         link: '/limousine'
@@ -21,7 +21,7 @@ const services = [
     {
         count: '03',
         title: 'VenYou Events',
-        flaticon: 'flaticon-window',
+        logo: require('./../../images/azim/145.png'),
         image: require('./../../images/azim/17.png'),
         description: 'Experience seamless events crafted with our expert touch — your celebration, perfected by our expertise.',
         link: '/events'
@@ -29,7 +29,7 @@ const services = [
     {
         count: '04',
         title: 'Najila Food Trading',
-        flaticon: 'flaticon-sketch',
+        logo: require('./../../images/azim/146.png'),
         image: require('./../../images/azim/18.png'),
         description: "We bring the world's finest flavors to your table. Experience the art of taste with us.",
         link: '/food-trading'
@@ -37,7 +37,7 @@ const services = [
     {
         count: '05',
         title: 'Golden Vision Cleaning and Hospitality Services',
-        flaticon: 'flaticon-stairs',
+        logo: require('./../../images/azim/147.png'),
         image: require('./../../images/azim/19.png'),
         description: 'Where cleanliness meets a warm welcome — your comfort is our commitment.',
         link: '/cleaning-and-hospitality'
@@ -45,7 +45,7 @@ const services = [
     {
         count: '06',
         title: 'Vadakara To Kasargod Restaurant',
-        flaticon: 'flaticon-window',
+        logo: require('./../../images/azim/148.png'),
         image: require('./../../images/azim/20.png'),
         description: 'A culinary experience that embodies true authenticity.',
         link: '/restaurent'
@@ -68,7 +68,17 @@ class Services7 extends React.Component {
                                             <div className="bg-content-mid">
                                                 <div className="sx-icon-box-wraper center   text-white">
                                                     <div className="icon-lg m-b15">
-                                                        <span className="icon-cell"><i className={item.flaticon} /></span>
+                                                        <span className="icon-cell">
+                                                            <img 
+                                                                src={item.logo} 
+                                                                alt={item.title} 
+                                                                style={{ 
+                                                                    width: '90px', 
+                                                                    height: '90px',
+                                                                    objectFit: 'contain'
+                                                                }} 
+                                                            />
+                                                        </span>
                                                     </div>
                                                     <div className="icon-content m-b30">
                                                         <h4 className="sx-tilte"> <NavLink to={item.link}   className="sx-text-white">{item.title}</NavLink></h4>
