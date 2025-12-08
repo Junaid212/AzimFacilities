@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AzimFacilities/static/css/main.5ac8c4a9.css",
-    "main.js": "/AzimFacilities/static/js/main.6c838c3c.js",
+    "main.js": "/AzimFacilities/static/js/main.1a6c0ee8.js",
     "static/js/787.ad2546c4.chunk.js": "/AzimFacilities/static/js/787.ad2546c4.chunk.js",
     "static/media/6.png": "/AzimFacilities/static/media/6.d6a1e1e8bfdbc9c6eecf.png",
     "static/media/23.png": "/AzimFacilities/static/media/23.f397b93567b2652bccdf.png",
@@ -107,6 +107,7 @@
     "static/media/thum1.jpg": "/AzimFacilities/static/media/thum1.7f50cfc2a906234b4ef9.jpg",
     "static/media/thum2.jpg": "/AzimFacilities/static/media/thum2.deff9beadadf3566acc4.jpg",
     "static/media/thum3.jpg": "/AzimFacilities/static/media/thum3.32da8d1cf3864981a88e.jpg",
+    "static/media/143.png": "/AzimFacilities/static/media/143.e3e00ae7e21592340ec8.png",
     "static/media/104.png": "/AzimFacilities/static/media/104.0bdcf12955969dd0dd6d.png",
     "static/media/121.png": "/AzimFacilities/static/media/121.853299b9039ded3b038f.png",
     "static/media/127.png": "/AzimFacilities/static/media/127.6a3d49bc8a51e59f51c7.png",
@@ -117,6 +118,7 @@
     "static/media/pic-5.jpg": "/AzimFacilities/static/media/pic-5.ca232c8fda08f346f6f9.jpg",
     "static/media/109.png": "/AzimFacilities/static/media/109.6e5e4f9fa789d7e594e6.png",
     "static/media/117.png": "/AzimFacilities/static/media/117.3720cd4a1e450267b4a5.png",
+    "static/media/148.png": "/AzimFacilities/static/media/148.163e988575cc1eaa78cf.png",
     "static/media/128.png": "/AzimFacilities/static/media/128.7dd4422f6dccdb7ab07c.png",
     "static/media/132.png": "/AzimFacilities/static/media/132.7bbf91811033c438fe00.png",
     "static/media/96.png": "/AzimFacilities/static/media/96.ba5b2a68feb849df2f27.png",
@@ -124,11 +126,11 @@
     "static/media/81.png": "/AzimFacilities/static/media/81.ca2dd793d54fc25934a8.png",
     "index.html": "/AzimFacilities/index.html",
     "main.5ac8c4a9.css.map": "/AzimFacilities/static/css/main.5ac8c4a9.css.map",
-    "main.6c838c3c.js.map": "/AzimFacilities/static/js/main.6c838c3c.js.map",
+    "main.1a6c0ee8.js.map": "/AzimFacilities/static/js/main.1a6c0ee8.js.map",
     "787.ad2546c4.chunk.js.map": "/AzimFacilities/static/js/787.ad2546c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ac8c4a9.css",
-    "static/js/main.6c838c3c.js"
+    "static/js/main.1a6c0ee8.js"
   ]
 }
